@@ -1,0 +1,530 @@
+[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (05/09/2024 23:02:10)
+[Info   :   BepInEx] Running under Unity v2022.3.9.15351836
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [FixPluginTypesSerialization 1.0.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Message:FixPluginTypesSerialization] Using the config cache
+[Info   :FixPluginTypesSerialization] Running under Unity v2022.3.9
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 4 plugins to load
+[Info   :   BepInEx] Loading [CSync 5.0.1]
+[Info   :     CSync] CSync successfully applied patches.
+[Info   :   BepInEx] Loading [MoreCompany 1.10.1]
+[Info   :MoreCompany] Loading MoreCompany...
+[Info   :MoreCompany] Loading SETTINGS...
+[Info   :MoreCompany] Checking: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins/MoreCompanyCosmetics
+[Info   :MoreCompany] Loading COSMETICS...
+[Info   :MoreCompany] Loading DEFAULT COSMETICS...
+[Info   :MoreCompany] Loaded cosmetic: builtin.3dglasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.bunnyears from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.denimhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancyglasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyglasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.gunholster from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.hardhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.jesterhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.kittyears from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.mimemask from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancypants from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.outoforder from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.plaguemask from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.propellerhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.eyeballs from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.rudolph from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.santahat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.slimething from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
+[Info   :MoreCompany] Loading USER COSMETICS...
+[Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [Lethal_Company_Enhancer 1.0.2]
+[Debug  :     CSync] Successfully registered config instance InstanceKey { Guid = mom.llama.enhancer, AssemblyQualifiedName = Lethal_Company_Enhancer.Config.PluginConfig, Lethal_Company_Enhancer, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null }.
+[Info   :Lethal_Company_Enhancer] Patching now
+[Info   :Lethal_Company_Enhancer] Attaching a sync listener
+[Info   :   BepInEx] Loading [More Suits 1.4.3]
+[Info   :More Suits] Plugin More Suits is loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] Saving changed settings
+[Info   : Unity Log] subcribing to steam callbacks
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   : Unity Log] Returning week num: 40
+[Info   : Unity Log] week num: 40
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Returning week num: 40
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Connection approval callback! Game version of client request: 
+[Info   : Unity Log] Joining client id: 0; Local/host client id: 0
+[Info   : Unity Log] Stopped connection approval callback, as the client in question was the host!
+[Warning: Unity Log] [Netcode] You cannot decline the host connection. The connection was automatically approved.
+[Info   : Unity Log] started host!
+[Info   : Unity Log] are we in a server?: True
+[Info   : Unity Log] Lobby has been created
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Info   :MoreCompany] ResizePlayerCache: 32
+[Info   :MoreCompany] Resizing player cache from 4 to 32 with difference of 28
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Info   :Lethal_Company_Enhancer] StartOfRound Start
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] level id: 0
+[Info   : Unity Log] Changing level
+[Info   :Lethal_Company_Enhancer] TimeOfDay SetBuyingRateForDay
+[Info   : Unity Log] Loading from data: for 41 Experimentation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 220 Assurance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 56 Vow: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 71 Gordion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 61 March: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 20 Adamance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 85 Rend: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 7 Dine: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 21 Offense: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 8 Titan: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Weather chance: 0,7886578; 1
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   : Unity Log] Key 'shipGrabbableItems' does not exist
+[Info   : Unity Log] Loaded vehicle ID: -1
+[Info   :Lethal_Company_Enhancer] Config sync'd
+[Info   : Unity Log] Group credits: 69420
+[Info   :Lethal_Company_Enhancer] HangarShipDoor Start
+[Info   :MoreCompany] Setting initial volume for 0 to 16
+[Info   :MoreCompany] Setting initial volume for 1 to 16
+[Info   :MoreCompany] Setting initial volume for 2 to 16
+[Info   :MoreCompany] Setting initial volume for 3 to 16
+[Info   :Lethal_Company_Enhancer] TimeOfDay Start
+[Info   : Unity Log] planet mold states length: $13
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Taking control of player Player and enabling camera!
+[Info   : Unity Log] Called teleport function on Player (1)
+[Info   : Unity Log] Called teleport function on Player (2)
+[Info   : Unity Log] Called teleport function on Player (3)
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   : Unity Log] Starting voice tracking for player: eor
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
+[Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   : Unity Log] saved vehicle: -1
+[Info   : Unity Log] Got no ship grabbable items to save.
+[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
+[Warning: Unity Log] [Dissonance:Recording] (00:31:51.404) BasicMicrophoneCapture: Insufficient buffer space, requested 25920, clamped to 16383 (dropping 9537 samples)
+[Warning: Unity Log] [Dissonance:Recording] (00:31:51.404) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (00:31:51.404) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
+[Info   : Unity Log] Resetting unlockables list!
+[Info   : Unity Log] Scene manager is null
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   : Unity Log] Returning week num: 40
+[Info   : Unity Log] week num: 40
+[Info   : Unity Log] Discarding changed settings
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Returning week num: 40
+[Info   : Unity Log] You got invited by µ to join 109775245028264402
+[Info   : Unity Log] JOIN REQUESTED through steam invite
+[Info   : Unity Log] lobby id: 109775245028264402
+[Info   : Unity Log] Lobby id joining: 109775245028264402
+[Info   : Unity Log] refreshing lobby...
+[Info   : Unity Log] Waiting for lobby data refresh
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Got lobby data refresh!; 109775245028264402
+[Info   : Unity Log] Members in lobby: 1
+[Info   : Unity Log] Lobby join denied! Attempted to join vers.64 lobby id: 109775245028264402
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Displaying menu message 2
+[Info   : Unity Log] Displaying menu notification: The server host is playing on version 64 while you are on version 10014.
+[Info   : Unity Log] You got invited by Shork to join 109775245028747932
+[Info   : Unity Log] JOIN REQUESTED through steam invite
+[Info   : Unity Log] lobby id: 109775245028747932
+[Info   : Unity Log] Lobby id joining: 109775245028747932
+[Info   : Unity Log] refreshing lobby...
+[Info   : Unity Log] Waiting for lobby data refresh
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Got lobby data refresh!; 109775245028747932
+[Info   : Unity Log] Members in lobby: 1
+[Info   : Unity Log] Lobby join accepted! Lobby id 109775245028747932 is OK
+[Info   : Unity Log] lobby.id: 109775245028747932
+[Info   : Unity Log] id: 109775245028747932
+[Info   : Unity Log] Successfully joined steam lobby.
+[Info   : Unity Log] AA 109775245028747932
+[Info   : Unity Log] BB 109775245028747932
+[Info   : Unity Log] CC 76561198087677857
+[Info   : Unity Log] Game version: 10014
+[Info   : Unity Log] started client!
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Info   :MoreCompany] ResizePlayerCache: 32
+[Info   :MoreCompany] Resizing player cache from 4 to 32 with difference of 28
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   :Lethal_Company_Enhancer] Config sync'd
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Info   : Unity Log] Client connected callback in gamenetworkmanager
+[Info   :Lethal_Company_Enhancer] StartOfRound Start
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] 1107298560
+[Info   :Lethal_Company_Enhancer] HangarShipDoor Start
+[Info   :MoreCompany] Setting initial volume for 0 to 16
+[Info   :MoreCompany] Setting initial volume for 1 to 16
+[Info   :MoreCompany] Setting initial volume for 2 to 16
+[Info   :MoreCompany] Setting initial volume for 3 to 16
+[Info   :Lethal_Company_Enhancer] TimeOfDay Start
+[Info   : Unity Log] planet mold states length: $13
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Info   : Unity Log] soumdmanager: True; False
+[Info   : Unity Log] soumdmanager: True; False
+[Info   : Unity Log] soumdmanager: True; False
+[Info   : Unity Log] NEW CLIENT JOINED THE SERVER!!; clientId: 1
+[Info   : Unity Log] adding value to ClientPlayerList at value of index 0: 0
+[Info   : Unity Log] adding value to ClientPlayerList at value of index 1: 1
+[Info   : Unity Log] Skipping at index 2
+[Info   : Unity Log] Skipping at index 3
+[Info   : Unity Log] Skipping at index 4
+[Info   : Unity Log] Skipping at index 5
+[Info   : Unity Log] Skipping at index 6
+[Info   : Unity Log] Skipping at index 7
+[Info   : Unity Log] Skipping at index 8
+[Info   : Unity Log] Skipping at index 9
+[Info   : Unity Log] Skipping at index 10
+[Info   : Unity Log] Skipping at index 11
+[Info   : Unity Log] Skipping at index 12
+[Info   : Unity Log] Skipping at index 13
+[Info   : Unity Log] Skipping at index 14
+[Info   : Unity Log] Skipping at index 15
+[Info   : Unity Log] Skipping at index 16
+[Info   : Unity Log] Skipping at index 17
+[Info   : Unity Log] Skipping at index 18
+[Info   : Unity Log] Skipping at index 19
+[Info   : Unity Log] Skipping at index 20
+[Info   : Unity Log] Skipping at index 21
+[Info   : Unity Log] Skipping at index 22
+[Info   : Unity Log] Skipping at index 23
+[Info   : Unity Log] Skipping at index 24
+[Info   : Unity Log] Skipping at index 25
+[Info   : Unity Log] Skipping at index 26
+[Info   : Unity Log] Skipping at index 27
+[Info   : Unity Log] Skipping at index 28
+[Info   : Unity Log] Skipping at index 29
+[Info   : Unity Log] Skipping at index 30
+[Info   : Unity Log] Skipping at index 31
+[Info   : Unity Log] ClientId already in ClientPlayerList!
+[Info   : Unity Log] clientplayerlist count for client: 2
+[Info   : Unity Log] level id: 1
+[Info   : Unity Log] Changing level
+[Info   : Unity Log] Weather chance: 0,5913926; 1
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Returning week num: 40
+[Info   :Lethal_Company_Enhancer] TimeOfDay SetBuyingRateForDay
+[Info   : Unity Log] Returning week num: 40
+[Info   : Unity Log] New player: Player (1)
+[Info   : Unity Log] Called teleport function on Player (1)
+[Info   : Unity Log] Connected players (joined clients) amount after connection: 1
+[Info   : Unity Log] Asking server to sync already-held objects. Our client id: 1
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Info   : Unity Log] Taking control of player Player (1) and enabling camera!
+[Info   : Unity Log] Called teleport function on Player (2)
+[Info   : Unity Log] Called teleport function on Player (3)
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player (1)
+[Info   : Unity Log] !!!! connectedPlayersAmount: 1
+[Warning: Unity Log] [Dissonance:Recording] (00:39:48.448) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,2607913)
+[Info   : Unity Log] Client: placeableObject #0: StorageCloset
+[Info   : Unity Log] Client: position #0: (0.00, 0.00, 0.00)
+[Info   : Unity Log] Client: placeableObject #1: FileCabinet
+[Info   : Unity Log] Client: position #1: (0.00, 0.00, 0.00)
+[Info   : Unity Log] Client: placeableObject #2: LightSwitchContainer
+[Info   : Unity Log] Client: position #2: (0.00, 0.00, 0.00)
+[Info   : Unity Log] Client: placeableObject #3: Bunkbeds
+[Info   : Unity Log] Client: position #3: (0.00, 0.00, 0.00)
+[Info   : Unity Log] Client: placeableObject #4: Terminal
+[Info   : Unity Log] Client: position #4: (0.00, 0.00, 0.00)
+[Info   : Unity Log] Starting voice tracking for player: eor
+[Info   : Unity Log] Refreshing voice playback objects. Number of voice objects found: 1
+[Info   : Unity Log] Found a match for voice object #0 and player object #0
+[Info   : Unity Log] player voice chat audiosource: Player 6dedcaee-5a41-4525-b56e-85834491c605 voice comms (UnityEngine.AudioSource); set audiomixer to VoicePlayer0 (UnityEngine.AudioMixerGroup) ; VoicePlayer0 (UnityEngine.AudioMixerGroup) ; 0
+[Info   : Unity Log] Skipping player #2 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #3 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #4 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #5 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #6 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #7 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #8 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #9 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #10 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #11 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #12 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #13 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #14 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #15 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #16 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #17 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #18 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #19 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #20 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #21 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #22 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #23 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #24 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #25 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #26 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #27 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #28 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #29 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #30 as they are not controlled or dead
+[Info   : Unity Log] Skipping player #31 as they are not controlled or dead
+[Info   : Unity Log] Disconnect callback called
+[Info   : Unity Log] Is server: False; ishost: False; isConnectedClient: True
+[Info   : Unity Log] Client disconnected from server
+[Info   : Unity Log] player disconnected c; 0
+[Info   : Unity Log] 2
+[Info   : Unity Log] client id: 0 ; player object id: 0
+[Info   : Unity Log] client id: 1 ; player object id: 1
+[Info   : Unity Log] disconnecting client id: 0
+[Info   : Unity Log] Host disconnected!
+[Info   : Unity Log] False
+[Info   : Unity Log] Host quit! Ending game for client.
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: False
+[Info   : Unity Log] Disconnect callback from networkmanager in gamenetworkmanager
+[Info   : Unity Log] Resetting unlockables list!
+[Info   : Unity Log] Scene manager is null
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   : Unity Log] Displaying menu notification: The server host disconnected.
+[Info   : Unity Log] Returning week num: 40
+[Info   : Unity Log] week num: 40
