@@ -1,4 +1,4 @@
-[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (05/09/2024 23:38:59)
+[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (05/09/2024 23:02:10)
 [Info   :   BepInEx] Running under Unity v2022.3.9.15351836
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -13,7 +13,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 25 plugins to load
+[Info   :   BepInEx] 31 plugins to load
 [Warning:   BepInEx] Plugin [Gamblers Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HealthMetrics 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [LethalConfig 1.4.2]
@@ -41,6 +41,10 @@
 [Info   :   BepInEx] Loading [Magnet Moved 1.0.0]
 [Info   :Magnet Moved] Magnet Moved loaded
 [Info   :Magnet Moved] WiderShipMod detected. Running alternate behavior.
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.7]
+[Info   :ainavt.lc.lethalconfig] Registered config "Lethal Company Input Utils/General/Locale"
+[Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
+[Info   :Lethal Company Input Utils] InputUtils 0.7.7 has finished loading!
 [Info   :   BepInEx] Loading [CSync 5.0.1]
 [Info   :     CSync] CSync successfully applied patches.
 [Info   :   BepInEx] Loading [BetterStamina 1.5.4]
@@ -49,6 +53,17 @@
 [Info   :   BepInEx] Loading [MoreBlood 1.0.2]
 [Info   : MoreBlood] BindingConfigs
 [Info   : MoreBlood] MoreBlood loaded
+[Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.36]
+[Info   :ReservedItemSlotCore-2.0.36] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] ReservedItemSlotCore loaded
+[Info   :   BepInEx] Loading [ReservedFlashlightSlot 2.0.8]
+[Info   :ReservedFlashlightSlot-2.0.8] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: flashlight. Slot priority: 200
+[Info   :ReservedFlashlightSlot-2.0.8] ReservedFlashlightSlot loaded
+[Info   :   BepInEx] Loading [ReservedSprayPaintSlot 1.1.2]
+[Info   :ReservedSprayPaintSlot-1.1.2] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: spray_paint. Slot priority: 25
+[Info   :ReservedSprayPaintSlot-1.1.2] ReservedSprayPaintSlot loaded
 [Info   :   BepInEx] Loading [TooManyEmotes 2.2.7]
 [Info   :TooManyEmotes-2.2.7] BindingConfigs
 [Info   :TooManyEmotes-2.2.7] Initializing custom emote hotkeys.
@@ -96,6 +111,62 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
 [Info   :MoreCompany] Loading USER COSMETICS...
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.AkuAku from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.BeardL from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.BlockQuestion from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.BMO from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.CheshireCat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Chopped from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.ChopperHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Chowder from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.CoolSanta from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Diglett from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.DoomHelm from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Eva01 from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.FrogHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.GagGlasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.GasMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.GokuHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.HeartGlasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.HelloKitty from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.HylianShield from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.KnitHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.KrustyHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.LegoHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.LinkCap from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.LuffyHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Luigi from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.MajorasMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Mario from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.MasterSword from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.MelodyHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Mickey from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PacmanHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PB&J from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PepeSadge from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PilotHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PipBoy from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Plunger from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PogoMask from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.PoopHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.ReindeerCap from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.SamusHelmet from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.Servbot from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.SnowMan from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.SpongeLicense from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.SquirtGun from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.StitchHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.SwimmyRing from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.TonyTiger from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.TrashCan from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.VaultBoy from bundle
+[Info   :MoreCompany] Loaded cosmetic: Insomniax.ZeroHelm from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.ArrowHead from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.AsterEars from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.AsterGlasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.AsterNose from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.BatEarsV3 from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.BlowTorch from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.captainamericashield from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.coilhat from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.trafficcone from bundle
@@ -104,21 +175,40 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :MoreCompany] Loaded cosmetic: atomic.donutarm from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.flowermanchest from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.fncrown from bundle
-[Info   :MoreCompany] Loaded cosmetic: atomic.halo from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.FrogHat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.FrontVisorTilt from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.FrontVisor from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.Halo from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.Headset from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.HeadSpikes from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.HoarderAntenna from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.Horns1 from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.Horns2 from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.idcard from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.maneater from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.masked from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.notagoodasset from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.nutcrackerhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.Wings from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.pumpkin from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.realcrown from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.RetroSciFi from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.SayuWings from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.SideCamL from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.SideCamR from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.specialbadge from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.stem from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.stickynote from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.Sweat from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.tenthousand from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.TentTex2 from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.tie from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.toiletroll from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.valve from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.VDGlasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.VisorModular from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.VisorPostApoc from bundle
+[Info   :MoreCompany] Loaded cosmetic: Ben.VisorTF from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.witcheshat from bundle
 [Info   :MoreCompany] Loaded MoreCompany FULLY
 [Info   :   BepInEx] Loading [ModelReplacementAPI 2.4.10]
@@ -302,6 +392,9 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :suskitech.LCAlwaysHearActiveWalkie] AudibleDistance: 12
 [Info   :suskitech.LCAlwaysHearActiveWalkie] WalkieRecordingRange: 20
 [Info   :suskitech.LCAlwaysHearActiveWalkie] PlayerToPlayerSpatialHearingRange: 20
+[Info   :   BepInEx] Loading [BetterSprayPaint 2.0.9]
+[Info   :BetterSprayPaint] Loading taffyko.BetterSprayPaint
+[Info   :   BepInEx] Loading [TooManySuits 2.0.0]
 [Info   :   BepInEx] Loading [Late Company 1.0.17]
 [Info   :Late Company] Late Company loaded!
 [Info   :   BepInEx] Loading [OpenMonitors 1.1.1]
@@ -316,6 +409,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :OpenBodyCams] ModelReplacementAPI compatibility mode is enabled.
 [Info   :OpenBodyCams] LethalLib is not present, body cam will be enabled by default.
 [Message:   BepInEx] Chainloader startup complete
+[Info   :ReservedFlashlightSlot-2.0.8] Initializing hotkeys.
 [Info   : Unity Log] Saving changed settings
 [Info   : Unity Log] subcribing to steam callbacks
 [Info   :TooManyEmotesScrap-1.0.6] Creating item data for emote prop: sexy_saxophone.sexy_sax.prop. Assigned emote: sexy_saxophone.sexy_sax
@@ -332,21 +426,21 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Jordo.NeedyCats] Added NeedyCats prefabs to Network Manager.
 [Info   :Junypai.GamblersMod] Adding Gambling machine to network prefab
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-MenuManager.Update () (at <d2996142fa1d46369fdcffced906545b>:0)
-
 [Info   :MoreCompany] LANMenu startLAN Patched
 [Info   : Unity Log] Returning week num: 41
 [Info   : Unity Log] week num: 41
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
-[Debug  :ainavt.lc.lethalconfig] 25 mods loaded: ainavt.lc.lethalconfig;mborsh.WiderShipMod;com.atomic.magnetmoved;com.sigurd.csync;FlipMods.BetterStamina;FlipMods.MoreBlood;FlipMods.TooManyEmotes;FlipMods.TooManyEmotesScrap;me.swipez.melonloader.morecompany;meow.ModelReplacementAPI;x753.More_Suits;foxgod.ThiccCompanyModelReplacement;InfiniteMoney;Jordo.NeedyCats;Junypai.GamblersMod;Matsuura.HealthMetrics;mattymatty.MattyFixes;mom.llama.enhancer;PushCompany;SolosBodycams;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;twig.latecompany;xxxstoner420bongmasterxxx.open_monitors;Zaggy1024.OpenBodyCams
+[Debug  :ainavt.lc.lethalconfig] 31 mods loaded: ainavt.lc.lethalconfig;mborsh.WiderShipMod;com.atomic.magnetmoved;com.rune580.LethalCompanyInputUtils;com.sigurd.csync;FlipMods.BetterStamina;FlipMods.MoreBlood;FlipMods.ReservedItemSlotCore;FlipMods.ReservedFlashlightSlot;FlipMods.ReservedSprayPaintSlot;FlipMods.TooManyEmotes;FlipMods.TooManyEmotesScrap;me.swipez.melonloader.morecompany;meow.ModelReplacementAPI;x753.More_Suits;foxgod.ThiccCompanyModelReplacement;InfiniteMoney;Jordo.NeedyCats;Junypai.GamblersMod;Matsuura.HealthMetrics;mattymatty.MattyFixes;mom.llama.enhancer;PushCompany;SolosBodycams;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;taffyko.BetterSprayPaint;TooManySuits;twig.latecompany;xxxstoner420bongmasterxxx.open_monitors;Zaggy1024.OpenBodyCams
 [Debug  :ainavt.lc.lethalconfig] ainavt.lc.lethalconfig : LethalConfig : 1.4.2
 [Debug  :ainavt.lc.lethalconfig] mborsh.WiderShipMod : WiderShipMod : 1.2.4
 [Debug  :ainavt.lc.lethalconfig] com.atomic.magnetmoved : Magnet Moved : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] com.rune580.LethalCompanyInputUtils : Lethal Company Input Utils : 0.7.7
 [Debug  :ainavt.lc.lethalconfig] com.sigurd.csync : CSync : 5.0.1
 [Debug  :ainavt.lc.lethalconfig] FlipMods.BetterStamina : BetterStamina : 1.5.4
 [Debug  :ainavt.lc.lethalconfig] FlipMods.MoreBlood : MoreBlood : 1.0.2
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedItemSlotCore : ReservedItemSlotCore : 2.0.36
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedFlashlightSlot : ReservedFlashlightSlot : 2.0.8
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedSprayPaintSlot : ReservedSprayPaintSlot : 1.1.2
 [Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotes : TooManyEmotes : 2.2.7
 [Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotesScrap : TooManyEmotesScrap : 1.0.6
 [Debug  :ainavt.lc.lethalconfig] me.swipez.melonloader.morecompany : MoreCompany : 1.10.1
@@ -363,10 +457,1068 @@ MenuManager.Update () (at <d2996142fa1d46369fdcffced906545b>:0)
 [Debug  :ainavt.lc.lethalconfig] SolosBodycams : Solo's Bodycams : 1.0
 [Debug  :ainavt.lc.lethalconfig] sunnobunno.YippeeMod : Yippee tbh mod : 1.2.4
 [Debug  :ainavt.lc.lethalconfig] suskitech.LCAlwaysHearActiveWalkie : LC Always Hear Active Walkies : 1.4.4
+[Debug  :ainavt.lc.lethalconfig] taffyko.BetterSprayPaint : BetterSprayPaint : 2.0.9
+[Debug  :ainavt.lc.lethalconfig] TooManySuits : TooManySuits : 2.0.0
 [Debug  :ainavt.lc.lethalconfig] twig.latecompany : Late Company : 1.0.17
 [Debug  :ainavt.lc.lethalconfig] xxxstoner420bongmasterxxx.open_monitors : OpenMonitors : 1.1.1
 [Debug  :ainavt.lc.lethalconfig] Zaggy1024.OpenBodyCams : OpenBodyCams : 2.4.3
-[Info   :ainavt.lc.lethalconfig] Generated 14 mod entries.
-[Info   :ainavt.lc.lethalconfig] Generated 217 configs, of which 187 were missing and registered.
-[Info   : Unity Log] unsubscribing from steam callbacks
-[Info   :FixPluginTypesSerialization] Restored original AssemblyNames list
+[Info   :ainavt.lc.lethalconfig] Generated 19 mod entries.
+[Info   :ainavt.lc.lethalconfig] Generated 256 configs, of which 225 were missing and registered.
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Returning week num: 41
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Connection approval callback! Game version of client request: 
+[Info   : Unity Log] Joining client id: 0; Local/host client id: 0
+[Info   : Unity Log] Stopped connection approval callback, as the client in question was the host!
+[Warning: Unity Log] [Netcode] You cannot decline the host connection. The connection was automatically approved.
+[Info   : Unity Log] started host!
+[Info   : Unity Log] are we in a server?: True
+[Info   : Unity Log] Lobby has been created
+[Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
+[Info   :Jordo.NeedyCats] Added NeedyCats items to items list.
+[Info   :Junypai.GamblersMod] StartOfRoundPatch has awoken
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Binoculars"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Boombox"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Flashlight"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Jetpack"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Key"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Lockpicker"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Apparatus"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Mapper"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Pro-flashlight"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Shovel"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Stun grenade"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Extension ladder"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/TZP-Inhalant"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Walkie-talkie"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Zap gun"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Magic 7 ball"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Airhorn"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Bell"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Big bolt"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Bottles"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Brush"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Candy"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Cash register"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Chemical jug"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Clown horn"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Large axle"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Teeth"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Dust pan"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Egg beater"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/V-type engine"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Golden cup"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Fancy lamp"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Painting"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Plastic fish"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Laser pointer"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Gold bar"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Hairdryer"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Magnifying glass"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Metal sheet"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Cookie mold pan"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Mug"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Perfume bottle"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Old phone"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Jar of pickles"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Pill bottle"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Remote"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Ring"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Toy robot"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Rubber Ducky"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Red soda"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Steering wheel"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Stop sign"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Tea kettle"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Toothpaste"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Toy cube"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Hive"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Radar-booster"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Yield sign"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Shotgun"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Ammo"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Spray paint"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Homemade flashbang"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Gift"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Flask"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Tragedy"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Comedy"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Whoopie cushion"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Kitchen knife"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Easter egg"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Weed killer"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Soccer ball"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Control pad"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Garbage lid"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Plastic cup"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Toilet paper"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Clock"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Toy train"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Zed Dog"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Belt bag"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Cat Food"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Cat"
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :Junypai.GamblersMod] RoundManagerPatch has awoken
+[Info   :TooManyEmotes-2.2.7] Initializing emote menu
+[Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
+[Info   :TooManyEmotes-2.2.7] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.7] Initializing animation renderer
+[Info   :Magnet Moved] MagnetLever (with WiderShipMod) moved to: Position: (-7.51, 1.61, -9.55), Rotation: (90.00, 180.00, 0.00), Scale: (1.41, 1.41, 1.41)
+[Info   :MoreCompany] ResizePlayerCache: 32
+[Info   :MoreCompany] Resizing player cache from 4 to 32 with difference of 28
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (4)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (5)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (6)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (7)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (8)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (9)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (10)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (11)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (12)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (13)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (14)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (15)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (16)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (17)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (18)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (19)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (20)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (21)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (22)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (23)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (24)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (25)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (26)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (27)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (28)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (29)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (30)
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Called teleport function on Player (31)
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Debug  :Matty's Fixes] clipboard new offset is 0,005036141
+[Debug  :Matty's Fixes] Sticky note new offset is 0,001431651
+[Message:WiderShipMod] ShipInsideBothVanila.fbx has been created with name ShipInsideBothVanila(Clone)!
+[Message:WiderShipMod] FloorBoth.fbx has been created with name FloorBoth(Clone)!
+[Message:WiderShipMod] ShipRailsRight.fbx has been created with name ShipRailsRight(Clone)!
+[Message:WiderShipMod] ShipRailPostsRight.fbx has been created with name ShipRailPostsRight(Clone)!
+[Message:WiderShipMod] CatwalkBoth.fbx has been created with name CatwalkBoth(Clone)!
+[Message:WiderShipMod] CatwalkUnderneathLiningBRight.fbx has been created with name CatwalkUnderneathLiningBRight(Clone)!
+[Message:WiderShipMod] CatwalkUnderneathLiningRight.fbx has been created with name CatwalkUnderneathLiningRight(Clone)!
+[Message:WiderShipMod] Plane.001Both.fbx has been created with name Plane.001Both(Clone)!
+[Message:WiderShipMod] Moving an object ShipRailsBoth to new point position.
+[Message:WiderShipMod] Moving an object ShipRailPostsBoth to new point position.
+[Message:WiderShipMod] Moving an object Plane.001Both to new point position.
+[Message:WiderShipMod] Moving an object ShipDoorClosed to new point position.
+[Message:WiderShipMod] Scaling an object ShipDoorClosed
+[Message:WiderShipMod] Moving an object ShipDoorOpened to new point position.
+[Message:WiderShipMod] Scaling an object ShipDoorOpened
+[Message:WiderShipMod] Moving an object OutsideShip (1) to new point position.
+[Message:WiderShipMod] Scaling an object OutsideShip (1)
+[Message:WiderShipMod] Moving an object OutsideShip (2) to new point position.
+[Message:WiderShipMod] Moving an object OutsideShip (3) to new point position.
+[Message:WiderShipMod] Moving an object VentEntrance to new point position.
+[Message:WiderShipMod] Rotating an object ChargeStation
+[Message:WiderShipMod] Moving an object ChargeStation to new point position.
+[Message:WiderShipMod] Moving an object Light (3) to new point position.
+[Message:WiderShipMod] Moving an object Light (1) to new point position.
+[Message:WiderShipMod] Rotating an object Light (3)
+[Message:WiderShipMod] Moving an object LeavingShip (3) to new point position.
+[Message:WiderShipMod] Scaling an object LeavingShip (3)
+[Message:WiderShipMod] Moving an object Cube (2) to new point position.
+[Message:WiderShipMod] Moving an object ShipBoundsTrigger to new point position.
+[Message:WiderShipMod] Scaling an object ShipBoundsTrigger
+[Message:WiderShipMod] Moving an object ShipInnerRoomBoundsTrigger to new point position.
+[Message:WiderShipMod] Scaling an object ShipInnerRoomBoundsTrigger
+[Message:WiderShipMod] Copying an object HangingLamp (3) to new position.
+[Info   :WiderShipMod] New obj name: HangingLamp (3)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object HangingLamp (4) to new position.
+[Info   :WiderShipMod] New obj name: HangingLamp (4)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (4) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (4)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (5) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (5)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (8) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (8)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (7) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (7)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object HangingLamp (3) to new position.
+[Info   :WiderShipMod] New obj name: HangingLamp (3)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object HangingLamp (4) to new position.
+[Info   :WiderShipMod] New obj name: HangingLamp (4)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (4) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (4)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (5) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (5)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (8) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (8)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Copying an object Area Light (7) to new position.
+[Info   :WiderShipMod] New obj name: Area Light (7)(Clone), parrent: ShipElectricLights
+[Message:WiderShipMod] Moving an object SideMachineryLeft to new point position.
+[Message:WiderShipMod] Seting angle: object SideMachineryLeft
+[Message:WiderShipMod] Scaling an object SideMachineryLeft
+[Message:WiderShipMod] Moving an object GiantCylinderMagnet to new point position.
+[Message:WiderShipMod] Moving an object SideMachineryRight to new point position.
+[Message:WiderShipMod] Seting angle: object SingleScreen
+[Message:WiderShipMod] Moving an object SingleScreen to new point position.
+[Message:WiderShipMod] Moving an object Cube.005 to new point position.
+[Message:WiderShipMod] Moving an object Cube.006 to new point position.
+[Message:WiderShipMod] Moving an object OutsideShipRoom to new position.
+[Message:WiderShipMod] Moving an object Light to new point position.
+[Message:WiderShipMod] Seting angle: object Light
+[Message:WiderShipMod] Moving an object Light (2) to new point position.
+[Message:WiderShipMod] Moving an object LeavingShip (1) to new point position.
+[Message:WiderShipMod] Moving an object LeavingShip (4) to new point position.
+[Message:WiderShipMod] Moving an object CatwalkUnderneathSupports to new point position.
+[Message:WiderShipMod] Moving an object Cube to new point position.
+[Message:WiderShipMod] Scaling an object Cube
+[Message:WiderShipMod] Moving an object Cube (2) to new point position.
+[Message:WiderShipMod] Copying an object Cube (2) to new position.
+[Info   :WiderShipMod] New obj name: Cube (2)(Clone), parrent: Railing
+[Message:WiderShipMod] Moving an object Cube (4) to new point position.
+[Message:WiderShipMod] Scaling an object Cube (4)
+[Message:WiderShipMod] Moving an object Cube (6) to new point position.
+[Message:WiderShipMod] Moving an object Cube (7) to new point position.
+[Message:WiderShipMod] Seting angle: object Cube (7)
+[Message:WiderShipMod] Moving an object Cube (8) to new point position.
+[Message:WiderShipMod] Scaling an object Cube (8)
+[Message:WiderShipMod] Moving an object Cube (9) to new point position.
+[Message:WiderShipMod] Scaling an object Cube (9)
+[Message:WiderShipMod] Moving an object ShipInnerRoomBoundsTrigger to new point position.
+[Message:WiderShipMod] Scaling an object ShipInnerRoomBoundsTrigger
+[Message:WiderShipMod] Moving an object Cube.005 (2) to new point position.
+[Message:WiderShipMod] Moving an object Cube.005 (1) to new point position.
+[Message:WiderShipMod] Rotating an object Cube.005 (1)
+[Message:WiderShipMod] Moving an object LadderShort (1) to new point position.
+[Message:WiderShipMod] Moving an object LadderShort to new point position.
+[Message:WiderShipMod] Seting angle: object LadderShort
+[Message:WiderShipMod] Moving an object HangarDoorButtonPanel to new point position.
+[Message:WiderShipMod] Seting angle: object HangarDoorButtonPanel
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: sexy_saxophone.sexy_sax.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: trombone.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: baseball_bat.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: junk_food.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: red_card.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: perfect_score.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: old_chair.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: paddle.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: dumbbell.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: gamepad.prop
+[Info   :TooManyEmotesScrap-1.0.6] Registering grabbable emote prop: jar_of_dirt.prop
+[Info   :Lethal_Company_Enhancer] StartOfRound Start
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] level id: 3
+[Info   : Unity Log] Changing level
+[Debug  :OpenMonitors] Weather: None
+[Info   :Lethal_Company_Enhancer] TimeOfDay SetBuyingRateForDay
+[Info   : Unity Log] Loading from data: for 41 Experimentation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 220 Assurance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 56 Vow: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 71 Gordion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 61 March: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 20 Adamance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 85 Rend: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 7 Dine: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 21 Offense: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 8 Titan: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Weather chance: 0,3663388; 1
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   : Unity Log] Loading placed object position as: (2.33, 2.23, -8.16)
+[Info   : Unity Log] Saving placed position as: (2.33, 2.23, -8.16)
+[Info   : Unity Log] Loading placed object position as: (-4.37, 1.88, -11.05)
+[Info   : Unity Log] Saving placed position as: (-4.37, 1.88, -11.05)
+[Info   : Unity Log] Placing scene object at saved position: Cupboard
+[Info   : Unity Log] Loading placed object position as: (0.41, 1.75, -21.02)
+[Info   : Unity Log] Saving placed position as: (0.41, 1.75, -21.02)
+[Info   : Unity Log] Loading placed object position as: (-4.29, 1.13, -7.59)
+[Info   : Unity Log] Saving placed position as: (-4.29, 1.13, -7.59)
+[Info   : Unity Log] Placing scene object at saved position: Light switch
+[Info   : Unity Log] Loading placed object position as: (6.24, 1.93, -10.84)
+[Info   : Unity Log] Saving placed position as: (6.24, 1.93, -10.84)
+[Info   : Unity Log] Loading placed object position as: (-4.39, 0.93, -11.03)
+[Info   : Unity Log] Saving placed position as: (-4.39, 0.93, -11.03)
+[Info   : Unity Log] Loading placed object position as: (-2.95, 0.95, -20.65)
+[Info   : Unity Log] Saving placed position as: (-2.95, 0.95, -20.65)
+[Info   : Unity Log] Loading placed object position as: (-0.11, 3.32, -21.34)
+[Info   : Unity Log] Saving placed position as: (-0.11, 3.32, -21.34)
+[Info   : Unity Log] Loading placed object position as: (5.92, 1.54, -16.82)
+[Info   : Unity Log] Saving placed position as: (5.92, 1.54, -16.82)
+[Info   : Unity Log] Loading placed object position as: (0.33, 2.23, -8.13)
+[Info   : Unity Log] Saving placed position as: (0.33, 2.23, -8.13)
+[Info   : Unity Log] Loading placed object position as: (-5.06, 0.35, -14.24)
+[Info   : Unity Log] Saving placed position as: (-5.06, 0.35, -14.24)
+[Info   : Unity Log] Loading placed object position as: (1.17, 3.40, -21.14)
+[Info   : Unity Log] Saving placed position as: (1.17, 3.40, -21.14)
+[Info   : Unity Log] Loading placed object position as: (10.53, 1.88, -13.20)
+[Info   : Unity Log] Saving placed position as: (10.53, 1.88, -13.20)
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :TooManyEmotes-2.2.7] Loading game values.
+[Info   :TooManyEmotes-2.2.7] Resetting unlocked emotes.
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: eor
+[Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: eor
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Shork
+[Info   :TooManyEmotes-2.2.7] Loading 1145 emote credits for player: Shork
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: MsMandy
+[Info   :TooManyEmotes-2.2.7] Loading 1145 emote credits for player: MsMandy
+[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: µ0
+[Info   :TooManyEmotes-2.2.7] Loading 1145 emote credits for player: µ0
+[Info   :TooManyEmotes-2.2.7] Loaded Seed: 41806295
+[Info   : Unity Log] Ship grabbable items list loaded. Count: 20
+[Info   : Unity Log] Setting scrap value for item: Dentures(Clone): 73
+[Debug  :Matty's Fixes] Teeth new offset is 0,07073896
+[Info   : Unity Log] Setting scrap value for item: KnifeItem(Clone): 35
+[Debug  :Matty's Fixes] Kitchen knife new offset is 0,02288882
+[Debug  :Matty's Fixes] Shovel new offset is 0,0542326
+[Info   : Unity Log] Setting scrap value for item: WhoopieCushion(Clone): 23
+[Debug  :Matty's Fixes] Whoopie cushion new offset is 0,02209558
+[Debug  :Matty's Fixes] Key new offset is 0,008278803
+[Debug  :Matty's Fixes] Pro-flashlight new offset is 0,07735101
+[Info   : Unity Log] Loading item save data for item: CatFood(Clone) (UnityEngine.GameObject): 1
+[Debug  :Matty's Fixes] Cat Food new offset is 1,490116E-08
+[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
+[Debug  :Matty's Fixes] Belt bag new offset is 0,1376437
+[Info   : Unity Log] Setting scrap value for item: KnifeItem(Clone): 35
+[Info   : Unity Log] Setting scrap value for item: red_card.prop(Clone): 29
+[Debug  :Matty's Fixes] Red card new offset is 0,004617121
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 53
+[Debug  :Matty's Fixes] Airhorn new offset is 0,08153064
+[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 60
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 65546
+[Debug  :Matty's Fixes] Cat new offset is 0,001615912
+[Info   : Unity Log] Setting scrap value for item: junk_food.prop(Clone): 26
+[Debug  :Matty's Fixes] Junk food new offset is 0,004107311
+[Info   : Unity Log] Setting scrap value for item: FancyLamp(Clone): 96
+[Debug  :Matty's Fixes] Fancy lamp new offset is 0
+[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
+[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 83
+[Debug  :Matty's Fixes] Hairdryer new offset is 0,1022418
+[Info   : Unity Log] Setting scrap value for item: paddle.prop(Clone): 26
+[Debug  :Matty's Fixes] Paddle new offset is 0,0002036653
+[Info   : Unity Log] Loaded vehicle ID: -1
+[Debug  :OpenMonitors] Weather: None
+[Info   :Lethal_Company_Enhancer] Config sync'd
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 41806295
+[Warning:TooManySuits] LabelScale exceeds the range of [0,5, 3]; clamping value to 1
+[Debug  :OpenMonitors] StartOfRound.Initialize
+[Debug  :OpenMonitors] Destroying Quota BG
+[Debug  :OpenMonitors] Destroying Deadline BG
+[Debug  :OpenMonitors] Creating Monitor LifeSupport
+[Debug  :OpenMonitors] Monitor LifeSupport created
+[Debug  :OpenMonitors] Creating Monitor Loot
+[Debug  :OpenMonitors] Monitor Loot created
+[Debug  :OpenMonitors] Creating Monitor Time
+[Debug  :OpenMonitors] Monitor Time created
+[Debug  :OpenMonitors] Creating Monitor Credits
+[Debug  :OpenMonitors] Monitor Credits created
+[Debug  :OpenMonitors] Creating Monitor Day
+[Debug  :OpenMonitors] Monitor Day created
+[Debug  :OpenMonitors] Creating Monitor PlayersLifeSupport
+[Debug  :OpenMonitors] Monitor PlayersLifeSupport created
+[Info   :OpenBodyCams] Using custom camera settings from MainCamera.
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (1)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (3)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (2)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player
+[Info   : Unity Log] Group credits: 70389
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into quick menu...
+[Info   :Jordo.NeedyCats] Added NeedyCats to all levels.
+[Info   :Lethal_Company_Enhancer] HangarShipDoor Start
+[Info   :MoreCompany] Setting initial volume for 0 to 16
+[Info   :MoreCompany] Setting initial volume for 1 to 16
+[Info   :MoreCompany] Setting initial volume for 2 to 16
+[Info   :MoreCompany] Setting initial volume for 3 to 16
+[Info   :Lethal_Company_Enhancer] TimeOfDay Start
+[Info   : Unity Log] planet mold states length: $13
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (4)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (5)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (6)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (7)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (8)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (9)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (10)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (11)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (12)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (13)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (14)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (15)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (16)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (17)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (18)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (19)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (20)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (21)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (22)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (23)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (24)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (25)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (26)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (27)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (28)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (29)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (30)
+[Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (31)
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Taking control of player Player and enabling camera!
+[Info   : Unity Log] Called teleport function on Player (1)
+[Info   : Unity Log] Called teleport function on Player (2)
+[Info   : Unity Log] Called teleport function on Player (3)
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   : Unity Log] Starting voice tracking for player: eor
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: flashlight
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: spray_paint
+[Info   :TooManyEmotes-2.2.7] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.7] Initializing local player.
+[Info   :Junypai.GamblersMod] ConnectClientToPlayerObjectPatch
+[Info   :Junypai.GamblersMod] Registering host config message handler: Junypai.GamblersMod_OnHostRecievesClientConfigRequest
+[Debug  :OpenMonitors] WaitOnPlayerConnectForMonitorsToBeCreated
+[Info   :OpenBodyCams] Camera has been destroyed, recreating it.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
+[Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Debug  :OpenMonitors] LifeSupport -> Start()
+[Debug  :OpenMonitors] LifeSupport -> Start() -> UpdateMonitor()
+[Debug  :OpenMonitors] LifeSupport -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Start()
+[Debug  :OpenMonitors] Loot -> Start() -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Debug  :OpenMonitors] Time -> Start()
+[Debug  :OpenMonitors] Time -> Start() end
+[Debug  :OpenMonitors] Credits -> Start()
+[Debug  :OpenMonitors] Credits -> Start() -> UpdateMonitor()
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Debug  :OpenMonitors] Day -> Start()
+[Debug  :OpenMonitors] Day -> Start() -> IsHost
+[Debug  :OpenMonitors] Day -> UpdateMonitor()
+[Debug  :OpenMonitors] PlayersLifeSupport -> Start()
+[Debug  :OpenMonitors] PlayersLifeSupport -> Start() end
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 41806295
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Warning:Matty's Fixes] Late Friend update Completed Player 0 (76561198298864236) has name eor
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Debug  :OpenMonitors] LifeSupport -> UpdateMonitor()
+[Debug  :OpenMonitors] PlayersLifeSupport -> UpdateMonitor()
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Info   : Unity Log] radar target index 0
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: flashlight
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: spray_paint
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   : Unity Log] Can't add component 'Camera' to ShipCamera(Clone) because such a component is already added to the game object!
+[Info   : Unity Log] Lever animation: setting bool to True
+[Info   : Unity Log] Sent lever animation RPC on this client
+[Info   : Unity Log] Stop special animation on StartGameLever, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Loading scene
+[Info   : Unity Log] Scene that began loading: CompanyBuilding
+[Info   : Unity Log] LOADING GAME!!!!!
+[Info   : Unity Log] Waiting for all players to load!
+[Debug  :OpenMonitors] StartOfRound.UpdateDayAtStartOfGame
+[Debug  :OpenMonitors] Day -> UpdateMonitor()
+[Info   : Unity Log] Stop special animation G
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] One Static Lighting Sky component was already set for baking, only the latest one will be used.
+[Info   : Unity Log] Animating material now
+[Info   : Unity Log] Animating material now
+[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportB is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportB is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportA is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportA is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
+[Info   :Junypai.GamblersMod] FinishGeneratingNewLevelServerRpcPatch was called
+[Info   :Junypai.GamblersMod] Spawning gambling machine...
+[Info   :Junypai.GamblersMod] Attempting to spawn gambling machine at CompanyBuildingLevel
+[Message:Junypai.GamblersMod] Spawning gambling machine... #0
+[Info   :Junypai.GamblersMod] GamblingMachine has Awoken
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMachineMaxCooldown loaded from config: 4
+[Info   :Junypai.GamblersMod] GamblingMachine: jackpotMultiplier loaded from config: 10
+[Info   :Junypai.GamblersMod] GamblingMachine: tripleMultiplier loaded from config: 3
+[Info   :Junypai.GamblersMod] GamblingMachine: doubleMultiplier loaded from config: 2
+[Info   :Junypai.GamblersMod] GamblingMachine: halvedMultiplier loaded from config: 0,5
+[Info   :Junypai.GamblersMod] GamblingMachine: zeroMultiplier loaded from config: 0
+[Info   :Junypai.GamblersMod] GamblingMachine: jackpotPercentage loaded from config: 3
+[Info   :Junypai.GamblersMod] GamblingMachine: triplePercentage loaded from config: 11
+[Info   :Junypai.GamblersMod] GamblingMachine: doublePercentage loaded from config: 27
+[Info   :Junypai.GamblersMod] GamblingMachine: halvedPercentage loaded from config: 50
+[Info   :Junypai.GamblersMod] GamblingMachine: removedPercentage loaded from config: 9
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicEnabled loaded from config: True
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicVolume loaded from config: 0,35
+[Info   :Junypai.GamblersMod] Spawned machine number: 0
+[Message:Junypai.GamblersMod] Spawning gambling machine... #1
+[Info   :Junypai.GamblersMod] GamblingMachine has Awoken
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMachineMaxCooldown loaded from config: 4
+[Info   :Junypai.GamblersMod] GamblingMachine: jackpotMultiplier loaded from config: 10
+[Info   :Junypai.GamblersMod] GamblingMachine: tripleMultiplier loaded from config: 3
+[Info   :Junypai.GamblersMod] GamblingMachine: doubleMultiplier loaded from config: 2
+[Info   :Junypai.GamblersMod] GamblingMachine: halvedMultiplier loaded from config: 0,5
+[Info   :Junypai.GamblersMod] GamblingMachine: zeroMultiplier loaded from config: 0
+[Info   :Junypai.GamblersMod] GamblingMachine: jackpotPercentage loaded from config: 3
+[Info   :Junypai.GamblersMod] GamblingMachine: triplePercentage loaded from config: 11
+[Info   :Junypai.GamblersMod] GamblingMachine: doublePercentage loaded from config: 27
+[Info   :Junypai.GamblersMod] GamblingMachine: halvedPercentage loaded from config: 50
+[Info   :Junypai.GamblersMod] GamblingMachine: removedPercentage loaded from config: 9
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicEnabled loaded from config: True
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicVolume loaded from config: 0,35
+[Info   :Junypai.GamblersMod] Spawned machine number: 1
+[Message:Junypai.GamblersMod] Spawning gambling machine... #2
+[Info   :Junypai.GamblersMod] GamblingMachine has Awoken
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMachineMaxCooldown loaded from config: 4
+[Info   :Junypai.GamblersMod] GamblingMachine: jackpotMultiplier loaded from config: 10
+[Info   :Junypai.GamblersMod] GamblingMachine: tripleMultiplier loaded from config: 3
+[Info   :Junypai.GamblersMod] GamblingMachine: doubleMultiplier loaded from config: 2
+[Info   :Junypai.GamblersMod] GamblingMachine: halvedMultiplier loaded from config: 0,5
+[Info   :Junypai.GamblersMod] GamblingMachine: zeroMultiplier loaded from config: 0
+[Info   :Junypai.GamblersMod] GamblingMachine: jackpotPercentage loaded from config: 3
+[Info   :Junypai.GamblersMod] GamblingMachine: triplePercentage loaded from config: 11
+[Info   :Junypai.GamblersMod] GamblingMachine: doublePercentage loaded from config: 27
+[Info   :Junypai.GamblersMod] GamblingMachine: halvedPercentage loaded from config: 50
+[Info   :Junypai.GamblersMod] GamblingMachine: removedPercentage loaded from config: 9
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicEnabled loaded from config: True
+[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicVolume loaded from config: 0,35
+[Info   :Junypai.GamblersMod] Spawned machine number: 2
+[Info   :Junypai.GamblersMod] GamblingMachine has Started
+[Info   :Junypai.GamblersMod] GamblingMachine has Started
+[Info   :Junypai.GamblersMod] GamblingMachine has Started
+[Info   : Unity Log] Spawning synced props on server. Length: 0
+[Info   : Unity Log] Set interminalmenu to true: True
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   : Unity Log] startofround: 3; 0
+[Info   : Unity Log] Playing time of day music
+[Info   : Unity Log] Play time of day sfx
+[Info   : Unity Log] Play music!; ; 0,6
+[Info   : Unity Log] Parsed word: pro
+[Info   : Unity Log] Parsed word: flash
+[Info   : Unity Log] Could not parse word: 1x
+[Info   : Unity Log] noun keyword: pro flashlight ; verb keyword: buy ; result null? : False
+[Info   : Unity Log] result: buyProFlashlight1
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Debug  :OpenMonitors] Terminal.RefreshMoney
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Debug  :OpenMonitors] Terminal.RefreshMoney
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   : Unity Log] Parsed word: spray
+[Info   : Unity Log] Could not parse word: 1x
+[Info   : Unity Log] noun keyword: spray paint ; verb keyword: buy ; result null? : False
+[Info   : Unity Log] result: buySpraypaint
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Debug  :OpenMonitors] Terminal.RefreshMoney
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Debug  :OpenMonitors] Terminal.RefreshMoney
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: say_so
+[Warning:TooManyEmotes-2.2.7] Performing emote with no music. No available boomboxes found nearby. Don't worry. Everything will be okay.
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: say_so
+[Warning:TooManyEmotes-2.2.7] Performing emote with no music. No available boomboxes found nearby. Don't worry. Everything will be okay.
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] Toggling mute emote audio: True
+[Info   :TooManyEmotes-2.2.7] Toggling mute emote audio: False
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Debug  :Matty's Fixes] Spray paint new offset is 0,07112344
+[Info   :ReservedItemSlotCore-2.0.36] Beginning grab on reserved item: Pro-flashlight Previous item slot: 3
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :ReservedItemSlotCore-2.0.36] Beginning grab on reserved item: Spray paint Previous item slot: 3
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 3 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 3 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 3 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 2 ReservedStartIndex: 4
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 2 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Finished snapping to ladder
+[Info   : Unity Log] Finished ladder sequence
+[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: say_so
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 1 ReservedStartIndex: 4
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 1 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 1 ReservedStartIndex: 4
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Start using spray
+[Info   : Unity Log] Spray not empty
+[Info   : Unity Log] Stop using spray
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 5 ReservedStartIndex: 4
+[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
+[Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
+[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
+[Info   : Unity Log] Resetting unlockables list!
+[Info   : Unity Log] Scene manager is null
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   : Unity Log] Returning week num: 41
+[Info   : Unity Log] week num: 41
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
