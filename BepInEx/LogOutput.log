@@ -13,7 +13,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 31 plugins to load
+[Info   :   BepInEx] 34 plugins to load
 [Warning:   BepInEx] Plugin [Gamblers Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HealthMetrics 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [LethalConfig 1.4.2]
@@ -30,59 +30,6 @@
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Text Input Dropdown"
 [Info   :ainavt.lc.lethalconfig] Finished loading assets.
 [Info   :ainavt.lc.lethalconfig] LethalConfig loaded!
-[Info   :   BepInEx] Loading [WiderShipMod 1.2.4]
-[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Left Part/Enable Left Inner Wall"
-[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Left Part/Solid Left Inner Wall"
-[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Right Part/Enable Right Inner Wall"
-[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Right Part/Solid Right Inner Wall"
-[Info   :WiderShipMod] Wider Ship Mod loaded. Patching.
-[Info   :WiderShipMod] Loading AssetBundle...
-[Info   :WiderShipMod] AssetBundle newship loaded from C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins.
-[Info   :   BepInEx] Loading [Magnet Moved 1.0.0]
-[Info   :Magnet Moved] Magnet Moved loaded
-[Info   :Magnet Moved] WiderShipMod detected. Running alternate behavior.
-[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.7]
-[Info   :ainavt.lc.lethalconfig] Registered config "Lethal Company Input Utils/General/Locale"
-[Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
-[Info   :Lethal Company Input Utils] InputUtils 0.7.7 has finished loading!
-[Info   :   BepInEx] Loading [CSync 5.0.1]
-[Info   :     CSync] CSync successfully applied patches.
-[Info   :   BepInEx] Loading [BetterStamina 1.5.4]
-[Info   :BetterStamina-1.5.4] Binding Configs
-[Info   :BetterStamina-1.5.4] BetterStamina loaded
-[Info   :   BepInEx] Loading [MoreBlood 1.0.2]
-[Info   : MoreBlood] BindingConfigs
-[Info   : MoreBlood] MoreBlood loaded
-[Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.36]
-[Info   :ReservedItemSlotCore-2.0.36] BindingConfigs
-[Info   :ReservedItemSlotCore-2.0.36] ReservedItemSlotCore loaded
-[Info   :   BepInEx] Loading [ReservedFlashlightSlot 2.0.8]
-[Info   :ReservedFlashlightSlot-2.0.8] BindingConfigs
-[Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: flashlight. Slot priority: 200
-[Info   :ReservedFlashlightSlot-2.0.8] ReservedFlashlightSlot loaded
-[Info   :   BepInEx] Loading [ReservedSprayPaintSlot 1.1.2]
-[Info   :ReservedSprayPaintSlot-1.1.2] BindingConfigs
-[Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: spray_paint. Slot priority: 25
-[Info   :ReservedSprayPaintSlot-1.1.2] ReservedSprayPaintSlot loaded
-[Info   :   BepInEx] Loading [TooManyEmotes 2.2.7]
-[Info   :TooManyEmotes-2.2.7] BindingConfigs
-[Info   :TooManyEmotes-2.2.7] Initializing custom emote hotkeys.
-[Info   :TooManyEmotes-2.2.7] Successfully loaded 28 animation clips from asset bundle: Assets/emotes_complementary
-[Info   :TooManyEmotes-2.2.7] Successfully loaded 99 animation clips from asset bundle: Assets/emotes_0
-[Info   :TooManyEmotes-2.2.7] Successfully loaded 131 animation clips from asset bundle: Assets/emotes_1
-[Info   :TooManyEmotes-2.2.7] Successfully loaded 90 animation clips from asset bundle: Assets/emotes_2
-[Info   :TooManyEmotes-2.2.7] Successfully loaded 8 animation clips from asset bundle: Assets/emotes_3
-[Info   :TooManyEmotes-2.2.7] Successfully loaded 11 animation clips from asset bundle: Assets/emotes_special
-[Info   :TooManyEmotes-2.2.7] Successfully loaded radial menu asset.
-[Info   :TooManyEmotes-2.2.7] Loaded 27 emote props.
-[Info   :TooManyEmotes-2.2.7] Loading 143 dmca-free audio clips.
-[Info   :TooManyEmotes-2.2.7] Loading 152 dmca audio clips.
-[Info   :TooManyEmotes-2.2.7] TooManyEmotes finished loading!
-[Info   :   BepInEx] Loading [TooManyEmotesScrap 1.0.6]
-[Info   :TooManyEmotesScrap-1.0.6] Recommended minimum TooManyEmotes version: 2.2.0 - Current version: 2.2.7
-[Info   :TooManyEmotesScrap-1.0.6] TooManyEmotesScrap finished loading!
-[Warning:TooManyEmotesScrap-1.0.6] NOTE: You will be unable to join other players (and they will be unable to join you) unless you either both have this mod enabled, or both have this mod disabled.
-If you are hosting a lobby for random players to join, or you are looking to join random servers, it might be best to disable this mod for the best compatibility.
 [Info   :   BepInEx] Loading [MoreCompany 1.10.1]
 [Info   :MoreCompany] Loading MoreCompany...
 [Info   :MoreCompany] Loading SETTINGS...
@@ -211,8 +158,69 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :MoreCompany] Loaded cosmetic: Ben.VisorTF from bundle
 [Info   :MoreCompany] Loaded cosmetic: atomic.witcheshat from bundle
 [Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.7]
+[Info   :ainavt.lc.lethalconfig] Registered config "Lethal Company Input Utils/General/Locale"
+[Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
+[Info   :Lethal Company Input Utils] InputUtils 0.7.7 has finished loading!
+[Info   :   BepInEx] Loading [TooManyEmotes 2.2.7]
+[Info   :TooManyEmotes-2.2.7] BindingConfigs
+[Info   :TooManyEmotes-2.2.7] Initializing custom emote hotkeys.
+[Info   :TooManyEmotes-2.2.7] Successfully loaded 28 animation clips from asset bundle: Assets/emotes_complementary
+[Info   :TooManyEmotes-2.2.7] Successfully loaded 99 animation clips from asset bundle: Assets/emotes_0
+[Info   :TooManyEmotes-2.2.7] Successfully loaded 131 animation clips from asset bundle: Assets/emotes_1
+[Info   :TooManyEmotes-2.2.7] Successfully loaded 90 animation clips from asset bundle: Assets/emotes_2
+[Info   :TooManyEmotes-2.2.7] Successfully loaded 8 animation clips from asset bundle: Assets/emotes_3
+[Info   :TooManyEmotes-2.2.7] Successfully loaded 11 animation clips from asset bundle: Assets/emotes_special
+[Info   :TooManyEmotes-2.2.7] Successfully loaded radial menu asset.
+[Info   :TooManyEmotes-2.2.7] Loaded 27 emote props.
+[Info   :TooManyEmotes-2.2.7] Loading 143 dmca-free audio clips.
+[Info   :TooManyEmotes-2.2.7] Loading 152 dmca audio clips.
+[Info   :TooManyEmotes-2.2.7] TooManyEmotes finished loading!
 [Info   :   BepInEx] Loading [ModelReplacementAPI 2.4.10]
 [Info   :meow.ModelReplacementAPI] Plugin meow.ModelReplacementAPI is loaded!
+[Info   :   BepInEx] Loading [MeowSkullsModel 0.1.0]
+[Info   :   Console] MeowskullsTestMod.meowskullsbundle
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MEOWSKULLS to suit name meowskulls.
+[Info   :MeowSkullsModel] Plugin com.aper.meowskullsmodel is loaded!
+[Info   :   BepInEx] Loading [WiderShipMod 1.2.4]
+[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Left Part/Enable Left Inner Wall"
+[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Left Part/Solid Left Inner Wall"
+[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Right Part/Enable Right Inner Wall"
+[Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Right Part/Solid Right Inner Wall"
+[Info   :WiderShipMod] Wider Ship Mod loaded. Patching.
+[Info   :WiderShipMod] Loading AssetBundle...
+[Info   :WiderShipMod] AssetBundle newship loaded from C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins.
+[Info   :   BepInEx] Loading [Magnet Moved 1.0.0]
+[Info   :Magnet Moved] Magnet Moved loaded
+[Info   :Magnet Moved] WiderShipMod detected. Running alternate behavior.
+[Info   :   BepInEx] Loading [Fortnite_Fishstick 0.1.0]
+[Info   :   Console] New_folder.templatebundle
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRFISHSTICKNEW2 to suit name fishstick.
+[Info   :Fortnite_Fishstick] Plugin Com.PeeJohn.Fishstick is loaded!
+[Info   :   BepInEx] Loading [CSync 5.0.1]
+[Info   :     CSync] CSync successfully applied patches.
+[Info   :   BepInEx] Loading [BetterStamina 1.5.4]
+[Info   :BetterStamina-1.5.4] Binding Configs
+[Info   :BetterStamina-1.5.4] BetterStamina loaded
+[Info   :   BepInEx] Loading [MoreBlood 1.0.2]
+[Info   : MoreBlood] BindingConfigs
+[Info   : MoreBlood] MoreBlood loaded
+[Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.36]
+[Info   :ReservedItemSlotCore-2.0.36] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] ReservedItemSlotCore loaded
+[Info   :   BepInEx] Loading [ReservedFlashlightSlot 2.0.8]
+[Info   :ReservedFlashlightSlot-2.0.8] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: flashlight. Slot priority: 200
+[Info   :ReservedFlashlightSlot-2.0.8] ReservedFlashlightSlot loaded
+[Info   :   BepInEx] Loading [ReservedSprayPaintSlot 1.1.2]
+[Info   :ReservedSprayPaintSlot-1.1.2] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: spray_paint. Slot priority: 25
+[Info   :ReservedSprayPaintSlot-1.1.2] ReservedSprayPaintSlot loaded
+[Info   :   BepInEx] Loading [TooManyEmotesScrap 1.0.6]
+[Info   :TooManyEmotesScrap-1.0.6] Recommended minimum TooManyEmotes version: 2.2.0 - Current version: 2.2.7
+[Info   :TooManyEmotesScrap-1.0.6] TooManyEmotesScrap finished loading!
+[Warning:TooManyEmotesScrap-1.0.6] NOTE: You will be unable to join other players (and they will be unable to join you) unless you either both have this mod enabled, or both have this mod disabled.
+If you are hosting a lobby for random players to join, or you are looking to join random servers, it might be best to disable this mod for the best compatibility.
 [Info   :   BepInEx] Loading [More Suits 1.4.3]
 [Info   :More Suits] Plugin More Suits is loaded!
 [Info   :   BepInEx] Loading [ThiccCompanyModelReplacement 2.0.0]
@@ -337,6 +345,20 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Junypai.GamblersMod] GamblingMachine asset successfully loaded
 [Info   :Junypai.GamblersMod] HandIconGO asset successfully loaded
 [Message:Junypai.GamblersMod] Gambling machine manager has awoken!
+[Info   :   BepInEx] Loading [FootballEntity 1.1.10]
+[Info   : Unity Log] Compatibility initialized for Lethal Config.
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/General/Language Key"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig.ConfigItems.GenericButtonConfigItem"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/General/Streamer Mode"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level D"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level C"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level B"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level A"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level S"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level S+"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level SSS"
+[Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level Other"
+[Info   : Unity Log] [F] Loaded.
 [Info   :   BepInEx] Loading [HealthMetrics 1.0.0]
 [Info   :Matsuura.HealthMetrics] HealthMetrics Awake
 [Info   :   BepInEx] Loading [Matty's Fixes 1.1.24]
@@ -427,29 +449,32 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Junypai.GamblersMod] Adding Gambling machine to network prefab
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
 [Info   :MoreCompany] LANMenu startLAN Patched
-[Info   : Unity Log] Returning week num: 41
-[Info   : Unity Log] week num: 41
+[Info   : Unity Log] Returning week num: 42
+[Info   : Unity Log] week num: 42
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
-[Debug  :ainavt.lc.lethalconfig] 31 mods loaded: ainavt.lc.lethalconfig;mborsh.WiderShipMod;com.atomic.magnetmoved;com.rune580.LethalCompanyInputUtils;com.sigurd.csync;FlipMods.BetterStamina;FlipMods.MoreBlood;FlipMods.ReservedItemSlotCore;FlipMods.ReservedFlashlightSlot;FlipMods.ReservedSprayPaintSlot;FlipMods.TooManyEmotes;FlipMods.TooManyEmotesScrap;me.swipez.melonloader.morecompany;meow.ModelReplacementAPI;x753.More_Suits;foxgod.ThiccCompanyModelReplacement;InfiniteMoney;Jordo.NeedyCats;Junypai.GamblersMod;Matsuura.HealthMetrics;mattymatty.MattyFixes;mom.llama.enhancer;PushCompany;SolosBodycams;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;taffyko.BetterSprayPaint;TooManySuits;twig.latecompany;xxxstoner420bongmasterxxx.open_monitors;Zaggy1024.OpenBodyCams
+[Debug  :ainavt.lc.lethalconfig] 34 mods loaded: ainavt.lc.lethalconfig;me.swipez.melonloader.morecompany;com.rune580.LethalCompanyInputUtils;FlipMods.TooManyEmotes;meow.ModelReplacementAPI;com.aper.meowskullsmodel;mborsh.WiderShipMod;com.atomic.magnetmoved;Com.PeeJohn.Fishstick;com.sigurd.csync;FlipMods.BetterStamina;FlipMods.MoreBlood;FlipMods.ReservedItemSlotCore;FlipMods.ReservedFlashlightSlot;FlipMods.ReservedSprayPaintSlot;FlipMods.TooManyEmotesScrap;x753.More_Suits;foxgod.ThiccCompanyModelReplacement;InfiniteMoney;Jordo.NeedyCats;Junypai.GamblersMod;Kittenji.FootballEntity;Matsuura.HealthMetrics;mattymatty.MattyFixes;mom.llama.enhancer;PushCompany;SolosBodycams;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;taffyko.BetterSprayPaint;TooManySuits;twig.latecompany;xxxstoner420bongmasterxxx.open_monitors;Zaggy1024.OpenBodyCams
 [Debug  :ainavt.lc.lethalconfig] ainavt.lc.lethalconfig : LethalConfig : 1.4.2
+[Debug  :ainavt.lc.lethalconfig] me.swipez.melonloader.morecompany : MoreCompany : 1.10.1
+[Debug  :ainavt.lc.lethalconfig] com.rune580.LethalCompanyInputUtils : Lethal Company Input Utils : 0.7.7
+[Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotes : TooManyEmotes : 2.2.7
+[Debug  :ainavt.lc.lethalconfig] meow.ModelReplacementAPI : ModelReplacementAPI : 2.4.10
+[Debug  :ainavt.lc.lethalconfig] com.aper.meowskullsmodel : MeowSkullsModel : 0.1.0
 [Debug  :ainavt.lc.lethalconfig] mborsh.WiderShipMod : WiderShipMod : 1.2.4
 [Debug  :ainavt.lc.lethalconfig] com.atomic.magnetmoved : Magnet Moved : 1.0.0
-[Debug  :ainavt.lc.lethalconfig] com.rune580.LethalCompanyInputUtils : Lethal Company Input Utils : 0.7.7
+[Debug  :ainavt.lc.lethalconfig] Com.PeeJohn.Fishstick : Fortnite_Fishstick : 0.1.0
 [Debug  :ainavt.lc.lethalconfig] com.sigurd.csync : CSync : 5.0.1
 [Debug  :ainavt.lc.lethalconfig] FlipMods.BetterStamina : BetterStamina : 1.5.4
 [Debug  :ainavt.lc.lethalconfig] FlipMods.MoreBlood : MoreBlood : 1.0.2
 [Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedItemSlotCore : ReservedItemSlotCore : 2.0.36
 [Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedFlashlightSlot : ReservedFlashlightSlot : 2.0.8
 [Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedSprayPaintSlot : ReservedSprayPaintSlot : 1.1.2
-[Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotes : TooManyEmotes : 2.2.7
 [Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotesScrap : TooManyEmotesScrap : 1.0.6
-[Debug  :ainavt.lc.lethalconfig] me.swipez.melonloader.morecompany : MoreCompany : 1.10.1
-[Debug  :ainavt.lc.lethalconfig] meow.ModelReplacementAPI : ModelReplacementAPI : 2.4.10
 [Debug  :ainavt.lc.lethalconfig] x753.More_Suits : More Suits : 1.4.3
 [Debug  :ainavt.lc.lethalconfig] foxgod.ThiccCompanyModelReplacement : ThiccCompanyModelReplacement : 2.0.0
 [Debug  :ainavt.lc.lethalconfig] InfiniteMoney : InfiniteMoney : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] Jordo.NeedyCats : Needy Cats : 1.2.2
 [Debug  :ainavt.lc.lethalconfig] Junypai.GamblersMod : Gamblers Mod : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] Kittenji.FootballEntity : FootballEntity : 1.1.10
 [Debug  :ainavt.lc.lethalconfig] Matsuura.HealthMetrics : HealthMetrics : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] mattymatty.MattyFixes : Matty's Fixes : 1.1.24
 [Debug  :ainavt.lc.lethalconfig] mom.llama.enhancer : Lethal_Company_Enhancer : 1.0.2
@@ -462,10 +487,10 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Debug  :ainavt.lc.lethalconfig] twig.latecompany : Late Company : 1.0.17
 [Debug  :ainavt.lc.lethalconfig] xxxstoner420bongmasterxxx.open_monitors : OpenMonitors : 1.1.1
 [Debug  :ainavt.lc.lethalconfig] Zaggy1024.OpenBodyCams : OpenBodyCams : 2.4.3
-[Info   :ainavt.lc.lethalconfig] Generated 19 mod entries.
-[Info   :ainavt.lc.lethalconfig] Generated 256 configs, of which 225 were missing and registered.
+[Info   :ainavt.lc.lethalconfig] Generated 20 mod entries.
+[Info   :ainavt.lc.lethalconfig] Generated 269 configs, of which 228 were missing and registered.
 [Info   : Unity Log] host button pressed
-[Info   : Unity Log] Returning week num: 41
+[Info   : Unity Log] Returning week num: 42
 [Info   : Unity Log] Displaying menu message
 [Info   : Unity Log] Connection approval callback! Game version of client request: 
 [Info   : Unity Log] Joining client id: 0; Local/host client id: 0
@@ -477,6 +502,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
 [Info   :Jordo.NeedyCats] Added NeedyCats items to items list.
 [Info   :Junypai.GamblersMod] StartOfRoundPatch has awoken
+[Info   : Unity Log] [F] Registering spawnables in instance.
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Binoculars"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Boombox"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Flashlight"
@@ -558,6 +584,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Belt bag"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Cat Food"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Cat"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Train"
 [Info   : Unity Log] Enabling connection callbacks in StartOfRound
 [Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
@@ -885,7 +912,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Lethal_Company_Enhancer] StartOfRound Start
 [Info   : Unity Log] 1107298560
 [Info   : Unity Log] 1107298560
-[Info   : Unity Log] level id: 3
+[Info   : Unity Log] level id: 10
 [Info   : Unity Log] Changing level
 [Debug  :OpenMonitors] Weather: None
 [Info   :Lethal_Company_Enhancer] TimeOfDay SetBuyingRateForDay
@@ -902,7 +929,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
 [Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
 [Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
-[Info   : Unity Log] Weather chance: 0,3663388; 1
+[Info   : Unity Log] Weather chance: 0,3811387; 1
 [Info   : Unity Log] Item sales percentages #0: 0
 [Info   : Unity Log] Item sales percentages #1: 0
 [Info   : Unity Log] Item sales percentages #2: 0
@@ -945,6 +972,8 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] Saving placed position as: (5.92, 1.54, -16.82)
 [Info   : Unity Log] Loading placed object position as: (0.33, 2.23, -8.13)
 [Info   : Unity Log] Saving placed position as: (0.33, 2.23, -8.13)
+[Info   : Unity Log] Loading placed object position as: (6.70, 2.37, -11.51)
+[Info   : Unity Log] Saving placed position as: (6.70, 2.37, -11.51)
 [Info   : Unity Log] Loading placed object position as: (-5.06, 0.35, -14.24)
 [Info   : Unity Log] Saving placed position as: (-5.06, 0.35, -14.24)
 [Info   : Unity Log] Loading placed object position as: (1.17, 3.40, -21.14)
@@ -974,54 +1003,129 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Info   :TooManyEmotes-2.2.7] Loading game values.
 [Info   :TooManyEmotes-2.2.7] Resetting unlocked emotes.
 [Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: eor
 [Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: eor
 [Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Shork
-[Info   :TooManyEmotes-2.2.7] Loading 1145 emote credits for player: Shork
-[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: MsMandy
-[Info   :TooManyEmotes-2.2.7] Loading 1145 emote credits for player: MsMandy
+[Info   :TooManyEmotes-2.2.7] Loading 1587 emote credits for player: Shork
+[Info   :TooManyEmotes-2.2.7] Loading 1 unlocked emotes for player: MsMandy
+[Info   :TooManyEmotes-2.2.7] Loading 1537 emote credits for player: MsMandy
 [Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: µ0
-[Info   :TooManyEmotes-2.2.7] Loading 1145 emote credits for player: µ0
-[Info   :TooManyEmotes-2.2.7] Loaded Seed: 41806295
-[Info   : Unity Log] Ship grabbable items list loaded. Count: 20
-[Info   : Unity Log] Setting scrap value for item: Dentures(Clone): 73
+[Info   :TooManyEmotes-2.2.7] Loading 1587 emote credits for player: µ0
+[Info   :TooManyEmotes-2.2.7] Loaded Seed: 745395351
+[Info   : Unity Log] Ship grabbable items list loaded. Count: 67
+[Info   : Unity Log] Setting scrap value for item: ToyCube(Clone): 24
+[Debug  :Matty's Fixes] Toy cube new offset is 0,1702556
+[Info   : Unity Log] Setting scrap value for item: dumbbell.prop(Clone): 30
+[Debug  :Matty's Fixes] Dumbbell new offset is 0,002850339
+[Info   : Unity Log] Setting scrap value for item: baseball_bat.prop(Clone): 30
+[Debug  :Matty's Fixes] Baseball bat new offset is 0,01233666
+[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 77
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 131101
+[Debug  :Matty's Fixes] Cat new offset is 0,001615912
+[Info   : Unity Log] Setting scrap value for item: FishTestProp(Clone): 37
+[Debug  :Matty's Fixes] Plastic fish new offset is 0,1262626
+[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 89
+[Debug  :Matty's Fixes] Hairdryer new offset is 0,1022418
+[Debug  :Matty's Fixes] Boombox new offset is 0,1907395
+[Debug  :Matty's Fixes] Pro-flashlight new offset is 0,07735101
+[Info   : Unity Log] Setting scrap value for item: perfect_score.prop(Clone): 17
+[Debug  :Matty's Fixes] Perfect score new offset is 0
+[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
+[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
+[Debug  :Matty's Fixes] Spray paint new offset is 0,07112344
+[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
+[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
+[Info   : Unity Log] Setting scrap value for item: LungApparatusTurnedOff(Clone): 80
+[Debug  :Matty's Fixes] Apparatus new offset is 0,3157569
+[Info   : Unity Log] Setting scrap value for item: Mug(Clone): 39
+[Debug  :Matty's Fixes] Mug new offset is 0,08636665
+[Info   : Unity Log] Setting scrap value for item: dumbbell.prop(Clone): 30
+[Info   : Unity Log] Setting scrap value for item: RedSodaCan(Clone): 86
+[Debug  :Matty's Fixes] Red soda new offset is 0,1063296
+[Info   : Unity Log] Setting scrap value for item: PickleJar(Clone): 42
+[Debug  :Matty's Fixes] Jar of pickles new offset is 0,2852256
+[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 52
+[Debug  :Matty's Fixes] Bottles new offset is 0,290181
+[Info   : Unity Log] Setting scrap value for item: Magic7Ball(Clone): 43
+[Debug  :Matty's Fixes] Magic 7 ball new offset is 0,1658573
+[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 79
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 65634
+[Info   : Unity Log] Setting scrap value for item: PlasticCup(Clone): 12
+[Debug  :Matty's Fixes] Plastic cup new offset is 0,1139396
+[Info   : Unity Log] Setting scrap value for item: FancyGlass(Clone): 45
+[Debug  :Matty's Fixes] Golden cup new offset is 0,2038094
+[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 51
+[Info   : Unity Log] Setting scrap value for item: Dentures(Clone): 67
 [Debug  :Matty's Fixes] Teeth new offset is 0,07073896
+[Info   : Unity Log] Setting scrap value for item: old_chair.prop(Clone): 20
+[Debug  :Matty's Fixes] Old chair new offset is 0,006000936
+[Debug  :Matty's Fixes] Shovel new offset is 0,0542326
+[Info   : Unity Log] Setting scrap value for item: BigBolt(Clone): 22
+[Debug  :Matty's Fixes] Big bolt new offset is 0,2002165
+[Info   : Unity Log] Setting scrap value for item: TeaKettle(Clone): 39
+[Debug  :Matty's Fixes] Tea kettle new offset is 0,02683485
+[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
+[Debug  :Matty's Fixes] Belt bag new offset is 0,1376425
+[Info   : Unity Log] Setting scrap value for item: LungApparatusTurnedOff(Clone): 80
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 68
+[Debug  :Matty's Fixes] Airhorn new offset is 0,08153064
+[Info   : Unity Log] Setting scrap value for item: paddle.prop(Clone): 32
+[Debug  :Matty's Fixes] Paddle new offset is 0,0002037361
+[Info   : Unity Log] Setting scrap value for item: WhoopieCushion(Clone): 26
+[Debug  :Matty's Fixes] Whoopie cushion new offset is 0,02209558
+[Info   : Unity Log] Setting scrap value for item: Toothpaste(Clone): 39
+[Debug  :Matty's Fixes] Toothpaste new offset is 0,04541781
+[Info   : Unity Log] Setting scrap value for item: Magic7Ball(Clone): 49
+[Info   : Unity Log] Setting scrap value for item: ToyCube(Clone): 38
+[Info   : Unity Log] Setting scrap value for item: RubberDucky(Clone): 18
+[Debug  :Matty's Fixes] Rubber Ducky new offset is 0,142791
 [Info   : Unity Log] Setting scrap value for item: KnifeItem(Clone): 35
 [Debug  :Matty's Fixes] Kitchen knife new offset is 0,02288882
-[Debug  :Matty's Fixes] Shovel new offset is 0,0542326
-[Info   : Unity Log] Setting scrap value for item: WhoopieCushion(Clone): 23
-[Debug  :Matty's Fixes] Whoopie cushion new offset is 0,02209558
-[Debug  :Matty's Fixes] Key new offset is 0,008278803
-[Debug  :Matty's Fixes] Pro-flashlight new offset is 0,07735101
-[Info   : Unity Log] Loading item save data for item: CatFood(Clone) (UnityEngine.GameObject): 1
-[Debug  :Matty's Fixes] Cat Food new offset is 1,490116E-08
-[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
-[Debug  :Matty's Fixes] Belt bag new offset is 0,1376437
-[Info   : Unity Log] Setting scrap value for item: KnifeItem(Clone): 35
-[Info   : Unity Log] Setting scrap value for item: red_card.prop(Clone): 29
-[Debug  :Matty's Fixes] Red card new offset is 0,004617121
-[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 53
-[Debug  :Matty's Fixes] Airhorn new offset is 0,08153064
-[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
-[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 60
-[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 65546
-[Debug  :Matty's Fixes] Cat new offset is 0,001615912
-[Info   : Unity Log] Setting scrap value for item: junk_food.prop(Clone): 26
-[Debug  :Matty's Fixes] Junk food new offset is 0,004107311
-[Info   : Unity Log] Setting scrap value for item: FancyLamp(Clone): 96
+[Info   : Unity Log] Setting scrap value for item: FancyRing(Clone): 52
+[Debug  :Matty's Fixes] Ring new offset is 0,02734862
+[Info   : Unity Log] Setting scrap value for item: Magic7Ball(Clone): 36
+[Info   : Unity Log] Setting scrap value for item: MagnifyingGlass(Clone): 48
+[Debug  :Matty's Fixes] Magnifying glass new offset is 0,04636003
+[Info   : Unity Log] Setting scrap value for item: ToiletPaperRolls(Clone): 63
+[Debug  :Matty's Fixes] Toilet paper new offset is 0,5023726
+[Info   : Unity Log] Setting scrap value for item: TeaKettle(Clone): 35
+[Info   : Unity Log] Setting scrap value for item: PerfumeBottle(Clone): 84
+[Debug  :Matty's Fixes] Perfume bottle new offset is 0,1098259
+[Info   : Unity Log] Setting scrap value for item: Painting(Clone): 80
+[Debug  :Matty's Fixes] Painting new offset is 0,03740682
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 58
+[Info   : Unity Log] Setting scrap value for item: ComedyMask(Clone): 48
+[Debug  :Matty's Fixes] Comedy new offset is 0,1021606
+[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 53
+[Info   : Unity Log] Setting scrap value for item: GarbageLid(Clone): 23
+[Debug  :Matty's Fixes] Garbage lid new offset is 0,03694511
+[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
+[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
+[Info   : Unity Log] Setting scrap value for item: Painting(Clone): 84
+[Info   : Unity Log] Setting scrap value for item: HandBell(Clone): 49
+[Debug  :Matty's Fixes] Bell new offset is 0,2314377
+[Info   : Unity Log] Setting scrap value for item: PickleJar(Clone): 54
+[Info   : Unity Log] Setting scrap value for item: FancyLamp(Clone): 110
 [Debug  :Matty's Fixes] Fancy lamp new offset is 0
-[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
-[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 83
-[Debug  :Matty's Fixes] Hairdryer new offset is 0,1022418
-[Info   : Unity Log] Setting scrap value for item: paddle.prop(Clone): 26
-[Debug  :Matty's Fixes] Paddle new offset is 0,0002036653
+[Debug  :Matty's Fixes] Key new offset is 0,008278803
+[Info   : Unity Log] Setting scrap value for item: CashRegisterItem(Clone): 110
+[Debug  :Matty's Fixes] Cash register new offset is 0,3439704
+[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 62
+[Info   : Unity Log] Setting scrap value for item: TeaKettle(Clone): 52
+[Info   : Unity Log] Setting scrap value for item: FancyLamp(Clone): 76
+[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
+[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
+[Info   : Unity Log] Setting scrap value for item: Clownhorn(Clone): 62
+[Debug  :Matty's Fixes] Clown horn new offset is 0,1324071
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 64
 [Info   : Unity Log] Loaded vehicle ID: -1
 [Debug  :OpenMonitors] Weather: None
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 745395351
 [Info   :Lethal_Company_Enhancer] Config sync'd
-[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 41806295
 [Warning:TooManySuits] LabelScale exceeds the range of [0,5, 3]; clamping value to 1
 [Debug  :OpenMonitors] StartOfRound.Initialize
 [Debug  :OpenMonitors] Destroying Quota BG
@@ -1043,7 +1147,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (3)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (2)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player
-[Info   : Unity Log] Group credits: 70389
+[Info   : Unity Log] Group credits: 55512
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into quick menu...
 [Info   :Jordo.NeedyCats] Added NeedyCats to all levels.
 [Info   :Lethal_Company_Enhancer] HangarShipDoor Start
@@ -1115,18 +1219,19 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] Called teleport function on Player (30)
 [Info   : Unity Log] Called teleport function on Player (31)
 [Info   : Unity Log] Starting voice tracking for player: eor
-[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: flashlight
-[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: spray_paint
 [Info   :TooManyEmotes-2.2.7] Loading ThirdPersonEmoteController preferences.
 [Info   :TooManyEmotes-2.2.7] Initializing local player.
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: flashlight
+[Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: spray_paint
 [Info   :Junypai.GamblersMod] ConnectClientToPlayerObjectPatch
 [Info   :Junypai.GamblersMod] Registering host config message handler: Junypai.GamblersMod_OnHostRecievesClientConfigRequest
 [Debug  :OpenMonitors] WaitOnPlayerConnectForMonitorsToBeCreated
 [Info   :OpenBodyCams] Camera has been destroyed, recreating it.
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
 [Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   : Unity Log] dropping item did not get raycast : ShovelItem(Clone)
 [Debug  :OpenMonitors] LifeSupport -> Start()
 [Debug  :OpenMonitors] LifeSupport -> Start() -> UpdateMonitor()
 [Debug  :OpenMonitors] LifeSupport -> UpdateMonitor()
@@ -1145,10 +1250,10 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Debug  :OpenMonitors] PlayersLifeSupport -> Start()
 [Debug  :OpenMonitors] PlayersLifeSupport -> Start() end
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
-[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 41806295
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 745395351
 [Info   : Unity Log] Has beta?: {hasBeta}
 [Info   : Unity Log] Has beta save data: True
 [Warning:Matty's Fixes] Late Friend update Completed Player 0 (76561198298864236) has name eor
@@ -1188,11 +1293,14 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Warning: Unity Log] [Dissonance:Recording] (01:10:26.760) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:3,770041)
+[Warning: Unity Log] [Dissonance:Recording] (01:10:26.782) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,1790724)
 [Info   : Unity Log] radar target index 0
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   : Unity Log] [F] Registering spawnables in instance 'delayed'.
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
@@ -1206,319 +1314,71 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: spray_paint
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   : Unity Log] Can't add component 'Camera' to ShipCamera(Clone) because such a component is already added to the game object!
-[Info   : Unity Log] Lever animation: setting bool to True
-[Info   : Unity Log] Sent lever animation RPC on this client
-[Info   : Unity Log] Stop special animation on StartGameLever, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
-[Info   : Unity Log] Stop special animation F
-[Info   : Unity Log] Loading scene
-[Info   : Unity Log] Scene that began loading: CompanyBuilding
-[Info   : Unity Log] LOADING GAME!!!!!
-[Info   : Unity Log] Waiting for all players to load!
-[Debug  :OpenMonitors] StartOfRound.UpdateDayAtStartOfGame
-[Debug  :OpenMonitors] Day -> UpdateMonitor()
-[Info   : Unity Log] Stop special animation G
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] One Static Lighting Sky component was already set for baking, only the latest one will be used.
-[Info   : Unity Log] Animating material now
-[Info   : Unity Log] Animating material now
-[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
-[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
-[Warning: Unity Log] EntranceTeleportB is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
-[Warning: Unity Log] EntranceTeleportB is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
-[Warning: Unity Log] EntranceTeleportA is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
-[Warning: Unity Log] EntranceTeleportA is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
-[Info   :Junypai.GamblersMod] FinishGeneratingNewLevelServerRpcPatch was called
-[Info   :Junypai.GamblersMod] Spawning gambling machine...
-[Info   :Junypai.GamblersMod] Attempting to spawn gambling machine at CompanyBuildingLevel
-[Message:Junypai.GamblersMod] Spawning gambling machine... #0
-[Info   :Junypai.GamblersMod] GamblingMachine has Awoken
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMachineMaxCooldown loaded from config: 4
-[Info   :Junypai.GamblersMod] GamblingMachine: jackpotMultiplier loaded from config: 10
-[Info   :Junypai.GamblersMod] GamblingMachine: tripleMultiplier loaded from config: 3
-[Info   :Junypai.GamblersMod] GamblingMachine: doubleMultiplier loaded from config: 2
-[Info   :Junypai.GamblersMod] GamblingMachine: halvedMultiplier loaded from config: 0,5
-[Info   :Junypai.GamblersMod] GamblingMachine: zeroMultiplier loaded from config: 0
-[Info   :Junypai.GamblersMod] GamblingMachine: jackpotPercentage loaded from config: 3
-[Info   :Junypai.GamblersMod] GamblingMachine: triplePercentage loaded from config: 11
-[Info   :Junypai.GamblersMod] GamblingMachine: doublePercentage loaded from config: 27
-[Info   :Junypai.GamblersMod] GamblingMachine: halvedPercentage loaded from config: 50
-[Info   :Junypai.GamblersMod] GamblingMachine: removedPercentage loaded from config: 9
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicEnabled loaded from config: True
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicVolume loaded from config: 0,35
-[Info   :Junypai.GamblersMod] Spawned machine number: 0
-[Message:Junypai.GamblersMod] Spawning gambling machine... #1
-[Info   :Junypai.GamblersMod] GamblingMachine has Awoken
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMachineMaxCooldown loaded from config: 4
-[Info   :Junypai.GamblersMod] GamblingMachine: jackpotMultiplier loaded from config: 10
-[Info   :Junypai.GamblersMod] GamblingMachine: tripleMultiplier loaded from config: 3
-[Info   :Junypai.GamblersMod] GamblingMachine: doubleMultiplier loaded from config: 2
-[Info   :Junypai.GamblersMod] GamblingMachine: halvedMultiplier loaded from config: 0,5
-[Info   :Junypai.GamblersMod] GamblingMachine: zeroMultiplier loaded from config: 0
-[Info   :Junypai.GamblersMod] GamblingMachine: jackpotPercentage loaded from config: 3
-[Info   :Junypai.GamblersMod] GamblingMachine: triplePercentage loaded from config: 11
-[Info   :Junypai.GamblersMod] GamblingMachine: doublePercentage loaded from config: 27
-[Info   :Junypai.GamblersMod] GamblingMachine: halvedPercentage loaded from config: 50
-[Info   :Junypai.GamblersMod] GamblingMachine: removedPercentage loaded from config: 9
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicEnabled loaded from config: True
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicVolume loaded from config: 0,35
-[Info   :Junypai.GamblersMod] Spawned machine number: 1
-[Message:Junypai.GamblersMod] Spawning gambling machine... #2
-[Info   :Junypai.GamblersMod] GamblingMachine has Awoken
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMachineMaxCooldown loaded from config: 4
-[Info   :Junypai.GamblersMod] GamblingMachine: jackpotMultiplier loaded from config: 10
-[Info   :Junypai.GamblersMod] GamblingMachine: tripleMultiplier loaded from config: 3
-[Info   :Junypai.GamblersMod] GamblingMachine: doubleMultiplier loaded from config: 2
-[Info   :Junypai.GamblersMod] GamblingMachine: halvedMultiplier loaded from config: 0,5
-[Info   :Junypai.GamblersMod] GamblingMachine: zeroMultiplier loaded from config: 0
-[Info   :Junypai.GamblersMod] GamblingMachine: jackpotPercentage loaded from config: 3
-[Info   :Junypai.GamblersMod] GamblingMachine: triplePercentage loaded from config: 11
-[Info   :Junypai.GamblersMod] GamblingMachine: doublePercentage loaded from config: 27
-[Info   :Junypai.GamblersMod] GamblingMachine: halvedPercentage loaded from config: 50
-[Info   :Junypai.GamblersMod] GamblingMachine: removedPercentage loaded from config: 9
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicEnabled loaded from config: True
-[Info   :Junypai.GamblersMod] GamblingMachine: gamblingMusicVolume loaded from config: 0,35
-[Info   :Junypai.GamblersMod] Spawned machine number: 2
-[Info   :Junypai.GamblersMod] GamblingMachine has Started
-[Info   :Junypai.GamblersMod] GamblingMachine has Started
-[Info   :Junypai.GamblersMod] GamblingMachine has Started
-[Info   : Unity Log] Spawning synced props on server. Length: 0
-[Info   : Unity Log] Set interminalmenu to true: True
-[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Info   : Unity Log] startofround: 3; 0
-[Info   : Unity Log] Playing time of day music
-[Info   : Unity Log] Play time of day sfx
-[Info   : Unity Log] Play music!; ; 0,6
-[Info   : Unity Log] Parsed word: pro
-[Info   : Unity Log] Parsed word: flash
-[Info   : Unity Log] Could not parse word: 1x
-[Info   : Unity Log] noun keyword: pro flashlight ; verb keyword: buy ; result null? : False
-[Info   : Unity Log] result: buyProFlashlight1
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :meow.ModelReplacementAPI] Suit Change detected  => MeowSkulls, Replacing ModelReplacement.MEOWSKULLS.
+[Info   :meow.ModelReplacementAPI] Awake eor Player (ModelReplacement.MEOWSKULLS)
+[Info   :meow.ModelReplacementAPI] AwakeEnd eor
 [Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Debug  :OpenMonitors] Terminal.RefreshMoney
-[Debug  :OpenMonitors] Credits -> UpdateMonitor()
-[Debug  :OpenMonitors] Terminal.RefreshMoney
-[Debug  :OpenMonitors] Credits -> UpdateMonitor()
-[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
-[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
-[Info   : Unity Log] Stop special animation F
-[Info   : Unity Log] Stop special animation G
-[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
-[Info   : Unity Log] Set interminalmenu to true: True
-[Info   : Unity Log] Parsed word: spray
-[Info   : Unity Log] Could not parse word: 1x
-[Info   : Unity Log] noun keyword: spray paint ; verb keyword: buy ; result null? : False
-[Info   : Unity Log] result: buySpraypaint
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Debug  :OpenMonitors] Terminal.RefreshMoney
-[Debug  :OpenMonitors] Credits -> UpdateMonitor()
-[Debug  :OpenMonitors] Terminal.RefreshMoney
-[Debug  :OpenMonitors] Credits -> UpdateMonitor()
-[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
-[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
-[Info   : Unity Log] Stop special animation F
-[Info   : Unity Log] Stop special animation G
-[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: say_so
-[Warning:TooManyEmotes-2.2.7] Performing emote with no music. No available boomboxes found nearby. Don't worry. Everything will be okay.
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: say_so
-[Warning:TooManyEmotes-2.2.7] Performing emote with no music. No available boomboxes found nearby. Don't worry. Everything will be okay.
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] Toggling mute emote audio: True
-[Info   :TooManyEmotes-2.2.7] Toggling mute emote audio: False
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Debug  :Matty's Fixes] Spray paint new offset is 0,07112344
-[Info   :ReservedItemSlotCore-2.0.36] Beginning grab on reserved item: Pro-flashlight Previous item slot: 3
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Info   :ReservedItemSlotCore-2.0.36] Beginning grab on reserved item: Spray paint Previous item slot: 3
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 3 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 3 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 3 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 3 ReservedStartIndex: 4
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 3 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 2 ReservedStartIndex: 4
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 2 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Called teleport function on Player
-[Info   : Unity Log] Finished snapping to ladder
-[Info   : Unity Log] Finished ladder sequence
-[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnPickupClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Info   : Unity Log] DISABLING/ENABLING SKINNEDMESH: Cat_1
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Debug  :OpenMonitors] PlayerControllerB.RefreshLootOnThrowClient
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: say_so
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: cheer
 [Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 35 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 288 third-person and 250 cosmetics for eor with a viewmodel replacement.
+[Info   :   Console] PLAYER EMOTE START eor ID 35
 [Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 1 ReservedStartIndex: 4
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 1 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 1 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 5 OldIndex: 1 ReservedStartIndex: 4
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   : Unity Log] Start using spray
-[Info   : Unity Log] Spray not empty
-[Info   : Unity Log] Stop using spray
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
-[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 1 OldIndex: 5 ReservedStartIndex: 4
-[Warning: Unity Log] PlayOneShot was called with a null AudioClip.
+[Info   :meow.ModelReplacementAPI] Model Replacement Change detected ModelReplacement.MEOWSKULLS => ThiccCompany.Replacements.RaccoonPurpleReplacement, changing model.
+[Info   :meow.ModelReplacementAPI] Suit Change detected MeowSkulls => RaccoonPurple, Replacing ThiccCompany.Replacements.RaccoonPurpleReplacement.
+[Info   :meow.ModelReplacementAPI] Awake eor Player (ThiccCompany.Replacements.RaccoonPurpleReplacement)
+[Info   :meow.ModelReplacementAPI] AwakeEnd eor
+[Info   :meow.ModelReplacementAPI] Destroy body component for eor
+[Info   :   Console] PLAYER EMOTE START eor ID 35
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: cheer
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 115 third-person and 77 cosmetics for eor with a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :meow.ModelReplacementAPI] Destroy body component for eor
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: afk
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: afk
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: cheer
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :meow.ModelReplacementAPI] Suit Change detected  => Fishstick, Replacing ModelReplacement.MRFISHSTICKNEW2.
+[Info   :meow.ModelReplacementAPI] Awake eor Player (ModelReplacement.MRFISHSTICKNEW2)
+[Info   :meow.ModelReplacementAPI] AwakeEnd eor
+[Info   :   Console] PLAYER EMOTE START eor ID 35
+[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
+[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: afk
+[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
+[Info   :   Console] PLAYER EMOTE END eor
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 106 third-person and 68 cosmetics for eor with a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 0 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 0 OldIndex: 4 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
 [Info   : Unity Log] Leaving current lobby
 [Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
 [Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
 [Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
-[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
-[Info   : Unity Log] Resetting unlockables list!
-[Info   : Unity Log] Scene manager is null
-[Info   : Unity Log] DISABLING connection callbacks in round manager
-[Info   : Unity Log] Terminal disabled, disabling ESC key listener
-[Info   :MoreCompany] LANMenu startLAN Patched
-[Info   : Unity Log] Returning week num: 41
-[Info   : Unity Log] week num: 41
-[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
+[Error  : Unity Log] Error while disconnecting: System.NullReferenceException: Object reference not set to an instance of an object
+  at TooManyEmotes.SaveManager.SaveLocalPlayerValues () [0x00001] in <f97340167e9046f7a8c419ecbc006f84>:0 
+  at (wrapper dynamic-method) GameNetworkManager.DMD<GameNetworkManager::SaveLocalPlayerValues>(GameNetworkManager)
+  at GameNetworkManager.SaveGame () [0x00000] in <d2996142fa1d46369fdcffced906545b>:0 
+  at GameNetworkManager.Disconnect () [0x00033] in <d2996142fa1d46369fdcffced906545b>:0 
+  at GameNetworkManager.OnApplicationQuit () [0x00015] in <d2996142fa1
