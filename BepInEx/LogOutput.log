@@ -5,17 +5,44 @@
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInExFasterLoadAssetBundles 0.6.4.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [FixPluginTypesSerialization 1.0.0.0]
-[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
+[Info   :   BepInEx] 4 patcher plugins loaded
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
 [Message:FixPluginTypesSerialization] Using the config cache
 [Info   :FixPluginTypesSerialization] Running under Unity v2022.3.9
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 34 plugins to load
+[Info   :   BepInEx] 45 plugins to load
 [Warning:   BepInEx] Plugin [Gamblers Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HealthMetrics 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Health Station mod 1.0.0.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [LethalConfig 1.4.2]
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Slider"
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Slider"
@@ -28,8 +55,13 @@
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Input"
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Input"
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Text Input Dropdown"
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Found assetbundle metadata, but path was null. Probably bundle is already uncompressed!
 [Info   :ainavt.lc.lethalconfig] Finished loading assets.
 [Info   :ainavt.lc.lethalconfig] LethalConfig loaded!
+[Info   :   BepInEx] Loading [BetterTeleporter 1.2.2]
+[Info   :BetterTeleporter] Patched 'ShipTeleporterPatch.TeleportPlayerOutWithInverseTeleporter'
+[Info   :BetterTeleporter] Patched 'ShipTeleporterPatch.beamUpPlayer'
+[Info   :BetterTeleporter] Plugin BetterTeleporter is loaded!
 [Info   :   BepInEx] Loading [MoreCompany 1.10.1]
 [Info   :MoreCompany] Loading MoreCompany...
 [Info   :MoreCompany] Loading SETTINGS...
@@ -58,120 +90,231 @@
 [Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
 [Info   :MoreCompany] Loading USER COSMETICS...
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "AkuAku_-1331189208.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.AkuAku from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "BeardL_-782646006.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.BeardL from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "BlockQuestion_854027722.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.BlockQuestion from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "BMO_-1652481514.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.BMO from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "CheshireCat_-88648622.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.CheshireCat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Chopped_331398752.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Chopped from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ChopperHat_-1837625112.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.ChopperHat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Chowder_-1288036308.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Chowder from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "CoolSanta_-1457544282.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.CoolSanta from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Diglett_-204289664.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Diglett from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "DoomHelm_1597508156.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.DoomHelm from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Eva01_1048964954.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Eva01 from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "FrogHead_-8102170.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.FrogHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "GagGlasses_-739493106.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.GagGlasses from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "GasMask_-1992747724.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.GasMask from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "GokuHead_-543305612.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.GokuHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "HeartGlasses_1767016130.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.HeartGlasses from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "HelloKitty_513761512.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.HelloKitty from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "HylianShield_1245152448.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.HylianShield from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "KnitHat_-1809899990.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.KnitHat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "KrustyHat_1231812688.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.KrustyHat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "LegoHead_-360457878.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.LegoHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "LinkCap_696609246.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.LinkCap from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "LuffyHat_-556645372.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.LuffyHat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Luigi_892796740.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Luigi from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "MajorasMask_1949863864.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.MajorasMask from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Mario_-21441930.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Mario from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "MasterSword_1075644474.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.MasterSword from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "MelodyHead_161405804.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.MelodyHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Mickey_-1091848814.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Mickey from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PacmanHead_1610847916.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PacmanHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PB&J_-1627052256.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PB&J from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PepeSadge_1414660422.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PepeSadge from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PilotHat_-1966068204.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PilotHat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PipBoy_2132711598.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PipBoy from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Plunger_879456980.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Plunger from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PogoMask_1258492208.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PogoMask from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "PoopHead_-909001080.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.PoopHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ReindeerCap_-373797638.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.ReindeerCap from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SamusHelmet_723288766.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.SamusHelmet from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Servbot_-190949904.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.Servbot from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SnowManHead_-1444204522.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.SnowMan from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SpongeLicense_1441339942.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.SpongeLicense from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SquirtGun_-1979407964.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.SquirtGun from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "StitchHead_1062304714.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.StitchHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SwimmyRing_473059410.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.SwimmyRing from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "TonyTiger_527101272.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.TonyTiger from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "TrashCan_-726153346.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.TrashCan from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "VaultBoy_-1600372736.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.VaultBoy from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ZeroHelm_-1261356788.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Insomniax.ZeroHelm from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ArrowHead_1780355890.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.ArrowHead from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "AsterEarsV2_-560471812.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.AsterEars from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "AsterGlasses2_1963203624.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.AsterGlasses from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "AsterNose_-324429970.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.AsterNose from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "BatEarsRevamp_41265498.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.BatEarsV3 from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "BlowTorch_-1211989120.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.BlowTorch from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ca-shield_54605258.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.captainamericashield from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "coil_-1747192562.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.coilhat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "cone_1294520116.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.trafficcone from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "coolshades_-1015801626.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.coolshades from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "disguise_759316674.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.disguise from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "donut_-493937944.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.donutarm from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "flowermanchest_-297750450.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.flowermanchest from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "fncrown_-1029141386.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.fncrown from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "FrogHat_2012571292.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.FrogHat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "FrontVisorTilted_-2086208510.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.FrontVisorTilt from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "FrontVisorV2_-1564344828.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.FrontVisor from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "halo_1477367850.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.Halo from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Headset_-1368157334.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.Headset from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "HeadSpikes_942164408.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.HeadSpikes from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "HoarderAntenna_-311090210.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.HoarderAntenna from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Horns1_-1903360776.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.Horns1 from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Horns2_-2099548270.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.Horns2 from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "idcard_224113232.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.idcard from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "maneater_603148460.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.maneater from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "masked_406960966.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.masked from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "notagoodasset_-846293652.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.notagoodasset from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "nutcracker_-1720513042.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.nutcrackerhat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "OwlHat_-128242476.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.Wings from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "pumpkin_-1381497094.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.pumpkin from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "real_crown_-1002461866.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.realcrown from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "RetroScifi_-1916700536.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.RetroSciFi from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SayuV2Wings_1125012142.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.SayuWings from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SideCamL_-1537665308.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.SideCamL from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "SideCamR_589808700.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.SideCamR from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "specialbadge_-663445918.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.specialbadge from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "stem_968843928.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.stem from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "stickynote_-1198649360.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.stickynote from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "Sweatband_1843063318.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.Sweat from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "tenthousand_-2072868750.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.tenthousand from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "TentTex2_-1733852802.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.TentTex2 from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "tie_1307859876.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.tie from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "toiletroll_63683154.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.toiletroll from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "valve_772656434.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.valve from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "VDayGlasses_-480598184.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.VDGlasses from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "VisorModularHC_2134572038.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.VisorModular from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "VisorPA_237452992.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.VisorPostApoc from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "VisorTF_2025911052.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: Ben.VisorTF from bundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "witches-hat_918958370.assetbundle"
 [Info   :MoreCompany] Loaded cosmetic: atomic.witcheshat from bundle
 [Info   :MoreCompany] Loaded MoreCompany FULLY
 [Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.7]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ui-assets_955504168.assetbundle"
 [Info   :ainavt.lc.lethalconfig] Registered config "Lethal Company Input Utils/General/Locale"
 [Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
 [Info   :Lethal Company Input Utils] InputUtils 0.7.7 has finished loading!
 [Info   :   BepInEx] Loading [TooManyEmotes 2.2.7]
 [Info   :TooManyEmotes-2.2.7] BindingConfigs
 [Info   :TooManyEmotes-2.2.7] Initializing custom emote hotkeys.
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emotes_complementary_-1551005068.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded 28 animation clips from asset bundle: Assets/emotes_complementary
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emotes_0_942863688.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded 99 animation clips from asset bundle: Assets/emotes_0
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emotes_1_55304538.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded 131 animation clips from asset bundle: Assets/emotes_1
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emotes_2_-1719813762.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded 90 animation clips from asset bundle: Assets/emotes_2
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emotes_3_-1733153522.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded 8 animation clips from asset bundle: Assets/emotes_3
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emotes_special_1504746650.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded 11 animation clips from asset bundle: Assets/emotes_special
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "misc_1308559156.assetbundle"
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "radial_menu_-1001762586.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Successfully loaded radial menu asset.
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "compressed_audio_773355714.assetbundle"
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "compressed_audio_dmca_-479898904.assetbundle"
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "emote_props_1687594384.assetbundle"
 [Info   :TooManyEmotes-2.2.7] Loaded 27 emote props.
 [Info   :TooManyEmotes-2.2.7] Loading 143 dmca-free audio clips.
 [Info   :TooManyEmotes-2.2.7] Loading 152 dmca audio clips.
@@ -180,6 +323,7 @@
 [Info   :meow.ModelReplacementAPI] Plugin meow.ModelReplacementAPI is loaded!
 [Info   :   BepInEx] Loading [MeowSkullsModel 0.1.0]
 [Info   :   Console] MeowskullsTestMod.meowskullsbundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "97cca8bb5d55495fb4f0b0705472c46c_-1015102346.assetbundle"
 [Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MEOWSKULLS to suit name meowskulls.
 [Info   :MeowSkullsModel] Plugin com.aper.meowskullsmodel is loaded!
 [Info   :   BepInEx] Loading [WiderShipMod 1.2.4]
@@ -189,25 +333,39 @@
 [Info   :ainavt.lc.lethalconfig] Registered config "WiderShipMod/Right Part/Solid Right Inner Wall"
 [Info   :WiderShipMod] Wider Ship Mod loaded. Patching.
 [Info   :WiderShipMod] Loading AssetBundle...
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "newship_-100863676.assetbundle"
 [Info   :WiderShipMod] AssetBundle newship loaded from C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins.
 [Info   :   BepInEx] Loading [Magnet Moved 1.0.0]
 [Info   :Magnet Moved] Magnet Moved loaded
 [Info   :Magnet Moved] WiderShipMod detected. Running alternate behavior.
 [Info   :   BepInEx] Loading [Fortnite_Fishstick 0.1.0]
 [Info   :   Console] New_folder.templatebundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "f490b9a491ba4217bfcd7005956307b4_1491406890.assetbundle"
 [Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRFISHSTICKNEW2 to suit name fishstick.
 [Info   :Fortnite_Fishstick] Plugin Com.PeeJohn.Fishstick is loaded!
 [Info   :   BepInEx] Loading [CSync 5.0.1]
 [Info   :     CSync] CSync successfully applied patches.
+[Info   :   BepInEx] Loading [LethalLib 0.16.1]
+[Info   : LethalLib] LethalLib loaded!!
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Queued recompress of "lethallib" assetbundle
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Decompressing "lethallib" with compression type None
+[Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.36]
+[Info   :ReservedItemSlotCore-2.0.36] BindingConfigs
+[Info   :ReservedItemSlotCore-2.0.36] ReservedItemSlotCore loaded
+[Info   :   BepInEx] Loading [LethalThings 0.10.6]
+[Info   :LethalThings] LethalLib version is 0.16.1, which is compatible with LethalThings 0.9.0+
+[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.7.7, which is compatible with LethalThings 0.10.5+
+[Info   :LethalThings] [Compatibility] ReservedItemSlotCore version is 2.0.36, which is compatible with LethalThings 0.8.0+
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Queued recompress of "lethalthings" assetbundle
+[Info   : LethalLib] [LethalLib] LethalThings is registering 28 content items!
+[Info   : LethalLib] Registering player ragdoll LTGoopRagdoll
+[Info   :LethalThings] LethalThings loaded successfully!!!
 [Info   :   BepInEx] Loading [BetterStamina 1.5.4]
 [Info   :BetterStamina-1.5.4] Binding Configs
 [Info   :BetterStamina-1.5.4] BetterStamina loaded
 [Info   :   BepInEx] Loading [MoreBlood 1.0.2]
 [Info   : MoreBlood] BindingConfigs
 [Info   : MoreBlood] MoreBlood loaded
-[Info   :   BepInEx] Loading [ReservedItemSlotCore 2.0.36]
-[Info   :ReservedItemSlotCore-2.0.36] BindingConfigs
-[Info   :ReservedItemSlotCore-2.0.36] ReservedItemSlotCore loaded
 [Info   :   BepInEx] Loading [ReservedFlashlightSlot 2.0.8]
 [Info   :ReservedFlashlightSlot-2.0.8] BindingConfigs
 [Info   :ReservedItemSlotCore-2.0.36] Created ReservedItemSlotData for: flashlight. Slot priority: 200
@@ -224,6 +382,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :   BepInEx] Loading [More Suits 1.4.3]
 [Info   :More Suits] Plugin More Suits is loaded!
 [Info   :   BepInEx] Loading [ThiccCompanyModelReplacement 2.0.0]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "49f2b27e4a9f46e7b8edc337ba56ac3b_238152272.assetbundle"
 [Info   :meow.ModelReplacementAPI] Registering body replacement type ThiccCompany.Replacements.CatLightRedReplacement to suit name catlightred.
 [Info   :meow.ModelReplacementAPI] Registering body replacement type ThiccCompany.Replacements.FoxWolfBlueReplacement to suit name foxblue.
 [Info   :meow.ModelReplacementAPI] Registering body replacement type ThiccCompany.Replacements.RaccoonPurpleReplacement to suit name raccoonpurple.
@@ -240,6 +399,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :InfiniteMoney] Loading plugin InfiniteMoney
 [Info   :InfiniteMoney] Loaded plugin InfiniteMoney
 [Info   :   BepInEx] Loading [Needy Cats 1.2.2]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "7891abf3d2fc42199d9c2ade8ecc6564_434339766.assetbundle"
 [Info   :Jordo.NeedyCats] Initialized Needy Cats
 [Info   :   BepInEx] Loading [Gamblers Mod 1.0.0]
 [Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: gamblingMachineMaxCooldown
@@ -333,6 +493,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Junypai.GamblersMod] Number of uses from config: 9999
 [Info   :Junypai.GamblersMod] Number of machines from config: 3
 [Info   :Junypai.GamblersMod] Loading gambler bundle assets
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "gamblingmachinebundle_956203448.assetbundle"
 [Info   :Junypai.GamblersMod] Gamblers bundle assets successfully loaded
 [Info   :Junypai.GamblersMod] drumroll asset successfully loaded
 [Info   :Junypai.GamblersMod] holyshit asset successfully loaded
@@ -346,6 +507,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Junypai.GamblersMod] HandIconGO asset successfully loaded
 [Message:Junypai.GamblersMod] Gambling machine manager has awoken!
 [Info   :   BepInEx] Loading [FootballEntity 1.1.10]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "4cd0923b690b4bd793991cd9b0ce491d_-636067118.assetbundle"
 [Info   : Unity Log] Compatibility initialized for Lethal Config.
 [Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/General/Language Key"
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig.ConfigItems.GenericButtonConfigItem"
@@ -359,6 +521,9 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level SSS"
 [Info   :ainavt.lc.lethalconfig] Registered config "FootballEntity/Spawn Rarity Per Risk Level/Risk Level Other"
 [Info   : Unity Log] [F] Loaded.
+[Info   :   BepInEx] Loading [LethalCompanyHarpGhost 1.3.16]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Queued recompress of "harpghostbundle" assetbundle
+[Info   :LCM_HauntedHarpist|1.3.16] Plugin Lethal Company Haunted Harpist Mod is loaded!
 [Info   :   BepInEx] Loading [HealthMetrics 1.0.0]
 [Info   :Matsuura.HealthMetrics] HealthMetrics Awake
 [Info   :   BepInEx] Loading [Matty's Fixes 1.1.24]
@@ -388,10 +553,20 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Debug  :Matty's Fixes] SaveItemsInShip Patched
 [Debug  :Matty's Fixes] SyncAllPlayerLevelsClientRpc patched!
 [Info   :Matty's Fixes] Matty's Fixes v1.1.24 Loaded!
+[Info   :   BepInEx] Loading [TouchScreen 1.1.3]
+[Info   :TouchScreen] Loaded resource icon: HoverIcon
+[Info   :TouchScreen]  > Hooked into InputUtils 0.7.7
+[Info   :TouchScreen] Enabled TouchScreen
+[Info   :   BepInEx] Loading [Hide Chat 1.0.0]
+[Debug  :Miodec.HideChat] hidechat is awake
 [Info   :   BepInEx] Loading [Lethal_Company_Enhancer 1.0.2]
 [Debug  :     CSync] Successfully registered config instance InstanceKey { Guid = mom.llama.enhancer, AssemblyQualifiedName = Lethal_Company_Enhancer.Config.PluginConfig, Lethal_Company_Enhancer, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null }.
 [Info   :Lethal_Company_Enhancer] Patching now
 [Info   :Lethal_Company_Enhancer] Attaching a sync listener
+[Info   :   BepInEx] Loading [Health Station mod 1.0.0.1]
+[Info   :Octolar.Healthstation] Octolar HealthStation mod is now active
+[Info   :   BepInEx] Loading [Better Item Scan 3.0.0.2]
+[Info   :PopleZoo.BetterItemScan] Plugin BetterItemScan is loaded!
 [Info   :   BepInEx] Loading [PushCompany 1.2.0]
 [Info   :PushCompany] PushCompany has initialized!
 [Info   :   BepInEx] Loading [Solo's Bodycams 1.0]
@@ -402,6 +577,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Solo's Bodycams] Plugin SolosBodycams is loaded!
 [Info   :   BepInEx] Loading [Yippee tbh mod 1.2.4]
 [Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loading.
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "yippeesound_-297051170.assetbundle"
 [Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loaded. Yippee!!!
 [Info   :   BepInEx] Loading [LC Always Hear Active Walkies 1.4.4]
 [Info   :suskitech.LCAlwaysHearActiveWalkie] \ /
@@ -416,22 +592,43 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :suskitech.LCAlwaysHearActiveWalkie] PlayerToPlayerSpatialHearingRange: 20
 [Info   :   BepInEx] Loading [BetterSprayPaint 2.0.9]
 [Info   :BetterSprayPaint] Loading taffyko.BetterSprayPaint
+[Info   :   BepInEx] Loading [TalkingHeads 1.0.0]
+[Info   :TalkingHeads] Plugin TalkingHeads is loaded!
 [Info   :   BepInEx] Loading [TooManySuits 2.0.0]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "ee53a3ff383a4e0cb80b5bc45667ff87_-1171270560.assetbundle"
 [Info   :   BepInEx] Loading [Late Company 1.0.17]
 [Info   :Late Company] Late Company loaded!
+[Info   :   BepInEx] Loading [ItemClippingFix 1.1.4]
+[Info   :ItemClippingFix] Checking for LobbyControl
+[Info   :ItemClippingFix] Plugin ItemClippingFix is loaded!
+[Info   :   BepInEx] Loading [NoSellLimit 1.0.1]
+[Info   :NoSellLimit] Plugin NoSellLimit is loaded!
 [Info   :   BepInEx] Loading [OpenMonitors 1.1.1]
 [Info   :OpenMonitors] OpenMonitors -> loading
 [Info   :OpenMonitors] OpenMonitors -> complete
 [Info   :   BepInEx] Loading [OpenBodyCams 2.4.3]
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Loading uncompressed bundle "openbodycams_-832254612.assetbundle"
 [Info   :OpenBodyCams] Successfully loaded OpenBodyCams assets.
 [Info   :OpenBodyCams] Patched UnlockableSuit to spawn cosmetics for both perspectives on all players.
 [Info   :OpenBodyCams] Last config version is 2.4.3.
 [Info   :OpenBodyCams] Patched MoreCompany to spawn cosmetics on the local player.
 [Info   :OpenBodyCams] MoreCompany compatibility mode is enabled.
 [Info   :OpenBodyCams] ModelReplacementAPI compatibility mode is enabled.
-[Info   :OpenBodyCams] LethalLib is not present, body cam will be enabled by default.
+[Info   :OpenBodyCams] Registered body cam unlockable for 200 credits.
 [Message:   BepInEx] Chainloader startup complete
+[Debug  :LCM_HauntedHarpist|1.3.16] Harp audio clip 'HarpMusic1' loaded asynchronously
+[Debug  :LCM_HauntedHarpist|1.3.16] Harp audio clip 'HarpMusic2' loaded asynchronously
+[Debug  :LCM_HauntedHarpist|1.3.16] Harp audio clip 'HarpMusic3' loaded asynchronously
+[Debug  :LCM_HauntedHarpist|1.3.16] Bagpipes audio clip 'bagpipes' loaded asynchronously
 [Info   :ReservedFlashlightSlot-2.0.8] Initializing hotkeys.
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Result of decompression "lethallib": Success (True), 
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Assetbundle "lethallib" is now uncompressed!
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Decompressing "lethalthings" with compression type None
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Result of decompression "lethalthings": Success (True), 
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Assetbundle "lethalthings" is now uncompressed!
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Decompressing "harpghostbundle" with compression type None
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Result of decompression "harpghostbundle": Success (True), 
+[Debug  :BepInExFasterLoadAssetBundlesPatcher] Assetbundle "harpghostbundle" is now uncompressed!
 [Info   : Unity Log] Saving changed settings
 [Info   : Unity Log] subcribing to steam callbacks
 [Info   :TooManyEmotesScrap-1.0.6] Creating item data for emote prop: sexy_saxophone.sexy_sax.prop. Assigned emote: sexy_saxophone.sexy_sax
@@ -447,13 +644,53 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :TooManyEmotesScrap-1.0.6] Creating item data for emote prop: jar_of_dirt.prop. Assigned emote: jar_of_dirt
 [Info   :Jordo.NeedyCats] Added NeedyCats prefabs to Network Manager.
 [Info   :Junypai.GamblersMod] Adding Gambling machine to network prefab
+[Info   :LethalThings] Found conductive scrap [LungApparatus]
+[Info   :LethalThings] Found conductive scrap [PatcherGunItem]
+[Info   :LethalThings] Found conductive scrap [Cog]
+[Info   :LethalThings] Found conductive scrap [EnginePart]
+[Info   :LethalThings] Found conductive scrap [MetalSheet]
+[Info   :LethalThings] Found conductive scrap [ShovelItem]
+[Info   :LethalThings] Found conductive scrap [BigBolt]
+[Info   :LethalThings] Found conductive scrap [FancyLamp]
+[Info   :LethalThings] Found conductive scrap [FancyRing]
+[Info   :LethalThings] Found conductive scrap [HandBell]
+[Info   :LethalThings] Found conductive scrap [RobotToy]
+[Info   :LethalThings] Found conductive scrap [TeaKettle]
+[Info   :LethalThings] Found conductive scrap [StopSign]
+[Info   :LethalThings] Found conductive scrap [RedSodaCan]
+[Info   :LethalThings] Found conductive scrap [EggBeater]
+[Info   :LethalThings] Found conductive scrap [JetpackItem]
+[Info   :LethalThings] Found conductive scrap [Clownhorn]
+[Info   :LethalThings] Found conductive scrap [GoldBar]
+[Info   :LethalThings] Found conductive scrap [CashRegisterItem]
+[Info   :LethalThings] Found conductive scrap [Key]
+[Info   :LethalThings] Found conductive scrap [TZPChemical]
+[Info   :LethalThings] Found conductive scrap [LungApparatusTurnedOff]
+[Info   :LethalThings] Found conductive scrap [RedLocustHive]
+[Info   :LethalThings] Found conductive scrap [ExtensionLadderItem]
+[Info   :LethalThings] Found conductive scrap [RadarBoosterDevice]
+[Info   :LethalThings] Found conductive scrap [YieldSign]
+[Info   :LethalThings] Found conductive scrap [KnifeItem]
+[Info   :LethalThings] Found conductive scrap [SoccerBall]
+[Info   :LethalThings] Found conductive scrap [ToiletPaperRolls]
+[Info   :LethalThings] Found conductive scrap [GarbageLid]
+[Info   :LethalThings] Found conductive scrap [ControlPad]
+[Info   :LethalThings] Found conductive scrap [CaveDwellerEnemy]
+[Info   :LethalThings] Found conductive scrap [ZeddogPlushie]
+[Info   :LethalThings] Found conductive scrap [CatFood]
+[Info   :LethalThings] Found conductive scrap [Dingus]
+[Info   :LethalThings] Found conductive scrap [GremlinEnergy]
+[Info   :LethalThings] Found conductive scrap [FlaregunAmmo]
+[Info   :LethalThings] Found conductive scrap [Harp]
+[Info   :LethalThings] Found conductive scrap [Bagpipes]
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
 [Info   :MoreCompany] LANMenu startLAN Patched
 [Info   : Unity Log] Returning week num: 42
 [Info   : Unity Log] week num: 42
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
-[Debug  :ainavt.lc.lethalconfig] 34 mods loaded: ainavt.lc.lethalconfig;me.swipez.melonloader.morecompany;com.rune580.LethalCompanyInputUtils;FlipMods.TooManyEmotes;meow.ModelReplacementAPI;com.aper.meowskullsmodel;mborsh.WiderShipMod;com.atomic.magnetmoved;Com.PeeJohn.Fishstick;com.sigurd.csync;FlipMods.BetterStamina;FlipMods.MoreBlood;FlipMods.ReservedItemSlotCore;FlipMods.ReservedFlashlightSlot;FlipMods.ReservedSprayPaintSlot;FlipMods.TooManyEmotesScrap;x753.More_Suits;foxgod.ThiccCompanyModelReplacement;InfiniteMoney;Jordo.NeedyCats;Junypai.GamblersMod;Kittenji.FootballEntity;Matsuura.HealthMetrics;mattymatty.MattyFixes;mom.llama.enhancer;PushCompany;SolosBodycams;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;taffyko.BetterSprayPaint;TooManySuits;twig.latecompany;xxxstoner420bongmasterxxx.open_monitors;Zaggy1024.OpenBodyCams
+[Debug  :ainavt.lc.lethalconfig] 45 mods loaded: ainavt.lc.lethalconfig;BetterTeleporter;me.swipez.melonloader.morecompany;com.rune580.LethalCompanyInputUtils;FlipMods.TooManyEmotes;meow.ModelReplacementAPI;com.aper.meowskullsmodel;mborsh.WiderShipMod;com.atomic.magnetmoved;Com.PeeJohn.Fishstick;com.sigurd.csync;evaisa.lethallib;FlipMods.ReservedItemSlotCore;evaisa.lethalthings;FlipMods.BetterStamina;FlipMods.MoreBlood;FlipMods.ReservedFlashlightSlot;FlipMods.ReservedSprayPaintSlot;FlipMods.TooManyEmotesScrap;x753.More_Suits;foxgod.ThiccCompanyModelReplacement;InfiniteMoney;Jordo.NeedyCats;Junypai.GamblersMod;Kittenji.FootballEntity;LethalCompanyHarpGhost;Matsuura.HealthMetrics;mattymatty.MattyFixes;me.pm.TheDeadSnake;Miodec.HideChat;mom.llama.enhancer;Octolar.Healthstation;PopleZoo.BetterItemScan;PushCompany;SolosBodycams;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;taffyko.BetterSprayPaint;TalkingHeads;TooManySuits;twig.latecompany;viviko.ItemClippingFix;viviko.NoSellLimit;xxxstoner420bongmasterxxx.open_monitors;Zaggy1024.OpenBodyCams
 [Debug  :ainavt.lc.lethalconfig] ainavt.lc.lethalconfig : LethalConfig : 1.4.2
+[Debug  :ainavt.lc.lethalconfig] BetterTeleporter : BetterTeleporter : 1.2.2
 [Debug  :ainavt.lc.lethalconfig] me.swipez.melonloader.morecompany : MoreCompany : 1.10.1
 [Debug  :ainavt.lc.lethalconfig] com.rune580.LethalCompanyInputUtils : Lethal Company Input Utils : 0.7.7
 [Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotes : TooManyEmotes : 2.2.7
@@ -463,9 +700,11 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Debug  :ainavt.lc.lethalconfig] com.atomic.magnetmoved : Magnet Moved : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] Com.PeeJohn.Fishstick : Fortnite_Fishstick : 0.1.0
 [Debug  :ainavt.lc.lethalconfig] com.sigurd.csync : CSync : 5.0.1
+[Debug  :ainavt.lc.lethalconfig] evaisa.lethallib : LethalLib : 0.16.1
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedItemSlotCore : ReservedItemSlotCore : 2.0.36
+[Debug  :ainavt.lc.lethalconfig] evaisa.lethalthings : LethalThings : 0.10.6
 [Debug  :ainavt.lc.lethalconfig] FlipMods.BetterStamina : BetterStamina : 1.5.4
 [Debug  :ainavt.lc.lethalconfig] FlipMods.MoreBlood : MoreBlood : 1.0.2
-[Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedItemSlotCore : ReservedItemSlotCore : 2.0.36
 [Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedFlashlightSlot : ReservedFlashlightSlot : 2.0.8
 [Debug  :ainavt.lc.lethalconfig] FlipMods.ReservedSprayPaintSlot : ReservedSprayPaintSlot : 1.1.2
 [Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotesScrap : TooManyEmotesScrap : 1.0.6
@@ -475,20 +714,29 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Debug  :ainavt.lc.lethalconfig] Jordo.NeedyCats : Needy Cats : 1.2.2
 [Debug  :ainavt.lc.lethalconfig] Junypai.GamblersMod : Gamblers Mod : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] Kittenji.FootballEntity : FootballEntity : 1.1.10
+[Debug  :ainavt.lc.lethalconfig] LethalCompanyHarpGhost : LethalCompanyHarpGhost : 1.3.16
 [Debug  :ainavt.lc.lethalconfig] Matsuura.HealthMetrics : HealthMetrics : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] mattymatty.MattyFixes : Matty's Fixes : 1.1.24
+[Debug  :ainavt.lc.lethalconfig] me.pm.TheDeadSnake : TouchScreen : 1.1.3
+[Debug  :ainavt.lc.lethalconfig] Miodec.HideChat : Hide Chat : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] mom.llama.enhancer : Lethal_Company_Enhancer : 1.0.2
+[Debug  :ainavt.lc.lethalconfig] Octolar.Healthstation : Health Station mod : 1.0.0.1
+[Debug  :ainavt.lc.lethalconfig] PopleZoo.BetterItemScan : Better Item Scan : 3.0.0.2
 [Debug  :ainavt.lc.lethalconfig] PushCompany : PushCompany : 1.2.0
 [Debug  :ainavt.lc.lethalconfig] SolosBodycams : Solo's Bodycams : 1.0
 [Debug  :ainavt.lc.lethalconfig] sunnobunno.YippeeMod : Yippee tbh mod : 1.2.4
 [Debug  :ainavt.lc.lethalconfig] suskitech.LCAlwaysHearActiveWalkie : LC Always Hear Active Walkies : 1.4.4
 [Debug  :ainavt.lc.lethalconfig] taffyko.BetterSprayPaint : BetterSprayPaint : 2.0.9
+[Debug  :ainavt.lc.lethalconfig] TalkingHeads : TalkingHeads : 1.0.0
 [Debug  :ainavt.lc.lethalconfig] TooManySuits : TooManySuits : 2.0.0
 [Debug  :ainavt.lc.lethalconfig] twig.latecompany : Late Company : 1.0.17
+[Debug  :ainavt.lc.lethalconfig] viviko.ItemClippingFix : ItemClippingFix : 1.1.4
+[Debug  :ainavt.lc.lethalconfig] viviko.NoSellLimit : NoSellLimit : 1.0.1
 [Debug  :ainavt.lc.lethalconfig] xxxstoner420bongmasterxxx.open_monitors : OpenMonitors : 1.1.1
 [Debug  :ainavt.lc.lethalconfig] Zaggy1024.OpenBodyCams : OpenBodyCams : 2.4.3
-[Info   :ainavt.lc.lethalconfig] Generated 20 mod entries.
-[Info   :ainavt.lc.lethalconfig] Generated 269 configs, of which 228 were missing and registered.
+[Info   :ainavt.lc.lethalconfig] Generated 27 mod entries.
+[Info   :ainavt.lc.lethalconfig] Generated 449 configs, of which 408 were missing and registered.
+[Info   : Unity Log] Discarding changed settings
 [Info   : Unity Log] host button pressed
 [Info   : Unity Log] Returning week num: 42
 [Info   : Unity Log] Displaying menu message
@@ -499,10 +747,26 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] started host!
 [Info   : Unity Log] are we in a server?: True
 [Info   : Unity Log] Lobby has been created
+[Info   :LethalThings] Spawning config manager
 [Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
 [Info   :Jordo.NeedyCats] Added NeedyCats items to items list.
 [Info   :Junypai.GamblersMod] StartOfRoundPatch has awoken
 [Info   : Unity Log] [F] Registering spawnables in instance.
+[Warning:Matty's Fixes] LethalLib found, reading Items.scrapItems
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Arson Plush"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Cookie Fumo"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Toimari Plush"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Hamis Plush"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Dirty Arson Plush"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Maxwell"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Glizzy"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Revolver"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Gremlin Can"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Toy Hammer"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalLib/Gnarpy Plush"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalCompanyHarpGhost/Harp"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalCompanyHarpGhost/Bagpipes"
+[Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|LethalLib|LethalCompanyHarpGhost/Ghost Plushie"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Binoculars"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Boombox"
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Flashlight"
@@ -587,6 +851,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :ainavt.lc.lethalconfig] Registered config "Matty's Fixes/ItemClipping.Rotations|Vanilla/Train"
 [Info   : Unity Log] Enabling connection callbacks in StartOfRound
 [Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Info   :TalkingHeads] StartOfRound patch subscribed to voiceChatModule events
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
@@ -595,6 +860,8 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : LethalLib] Adding 5 unlockables to unlockables list
+[Info   : LethalLib] Adding 8 items to terminal
 [Info   :Junypai.GamblersMod] RoundManagerPatch has awoken
 [Info   :TooManyEmotes-2.2.7] Initializing emote menu
 [Info   :TooManyEmotes-2.2.7] Loading AudioManager preferences.
@@ -802,6 +1069,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
 [Debug  :Matty's Fixes] clipboard new offset is 0,005036141
 [Debug  :Matty's Fixes] Sticky note new offset is 0,001431651
+[Info   : LethalLib] Found 34 prefabs to fix
 [Message:WiderShipMod] ShipInsideBothVanila.fbx has been created with name ShipInsideBothVanila(Clone)!
 [Message:WiderShipMod] FloorBoth.fbx has been created with name FloorBoth(Clone)!
 [Message:WiderShipMod] ShipRailsRight.fbx has been created with name ShipRailsRight(Clone)!
@@ -912,7 +1180,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :Lethal_Company_Enhancer] StartOfRound Start
 [Info   : Unity Log] 1107298560
 [Info   : Unity Log] 1107298560
-[Info   : Unity Log] level id: 10
+[Info   : Unity Log] level id: 3
 [Info   : Unity Log] Changing level
 [Debug  :OpenMonitors] Weather: None
 [Info   :Lethal_Company_Enhancer] TimeOfDay SetBuyingRateForDay
@@ -929,7 +1197,7 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
 [Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
 [Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
-[Info   : Unity Log] Weather chance: 0,3811387; 1
+[Info   : Unity Log] Weather chance: 0,7238349; 1
 [Info   : Unity Log] Item sales percentages #0: 0
 [Info   : Unity Log] Item sales percentages #1: 0
 [Info   : Unity Log] Item sales percentages #2: 0
@@ -947,6 +1215,14 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] Item sales percentages #14: 0
 [Info   : Unity Log] Item sales percentages #15: 0
 [Info   : Unity Log] Item sales percentages #16: 0
+[Info   : Unity Log] Item sales percentages #17: 0
+[Info   : Unity Log] Item sales percentages #18: 0
+[Info   : Unity Log] Item sales percentages #19: 0
+[Info   : Unity Log] Item sales percentages #20: 0
+[Info   : Unity Log] Item sales percentages #21: 0
+[Info   : Unity Log] Item sales percentages #22: 0
+[Info   : Unity Log] Item sales percentages #23: 0
+[Info   : Unity Log] Item sales percentages #24: 0
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
@@ -964,8 +1240,8 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   : Unity Log] Saving placed position as: (6.24, 1.93, -10.84)
 [Info   : Unity Log] Loading placed object position as: (-4.39, 0.93, -11.03)
 [Info   : Unity Log] Saving placed position as: (-4.39, 0.93, -11.03)
-[Info   : Unity Log] Loading placed object position as: (-2.95, 0.95, -20.65)
-[Info   : Unity Log] Saving placed position as: (-2.95, 0.95, -20.65)
+[Info   : Unity Log] Loading placed object position as: (-2.84, 0.95, -20.53)
+[Info   : Unity Log] Saving placed position as: (-2.84, 0.95, -20.53)
 [Info   : Unity Log] Loading placed object position as: (-0.11, 3.32, -21.34)
 [Info   : Unity Log] Saving placed position as: (-0.11, 3.32, -21.34)
 [Info   : Unity Log] Loading placed object position as: (5.92, 1.54, -16.82)
@@ -1003,128 +1279,75 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Info   :TooManyEmotes-2.2.7] Loading game values.
 [Info   :TooManyEmotes-2.2.7] Resetting unlocked emotes.
 [Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: eor
 [Info   :TooManyEmotes-2.2.7] Loading 100 emote credits for player: eor
-[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: Shork
-[Info   :TooManyEmotes-2.2.7] Loading 1587 emote credits for player: Shork
-[Info   :TooManyEmotes-2.2.7] Loading 1 unlocked emotes for player: MsMandy
-[Info   :TooManyEmotes-2.2.7] Loading 1537 emote credits for player: MsMandy
-[Info   :TooManyEmotes-2.2.7] Loading 0 unlocked emotes for player: µ0
-[Info   :TooManyEmotes-2.2.7] Loading 1587 emote credits for player: µ0
-[Info   :TooManyEmotes-2.2.7] Loaded Seed: 745395351
-[Info   : Unity Log] Ship grabbable items list loaded. Count: 67
-[Info   : Unity Log] Setting scrap value for item: ToyCube(Clone): 24
-[Debug  :Matty's Fixes] Toy cube new offset is 0,1702556
-[Info   : Unity Log] Setting scrap value for item: dumbbell.prop(Clone): 30
-[Debug  :Matty's Fixes] Dumbbell new offset is 0,002850339
-[Info   : Unity Log] Setting scrap value for item: baseball_bat.prop(Clone): 30
-[Debug  :Matty's Fixes] Baseball bat new offset is 0,01233666
-[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
-[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 77
-[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 131101
-[Debug  :Matty's Fixes] Cat new offset is 0,001615912
-[Info   : Unity Log] Setting scrap value for item: FishTestProp(Clone): 37
-[Debug  :Matty's Fixes] Plastic fish new offset is 0,1262626
-[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 89
+[Info   :TooManyEmotes-2.2.7] Loading 14 unlocked emotes for player: Shork
+[Info   :TooManyEmotes-2.2.7] Loading 2109 emote credits for player: Shork
+[Info   :TooManyEmotes-2.2.7] Loading 12 unlocked emotes for player: MsMandy
+[Info   :TooManyEmotes-2.2.7] Loading 2109 emote credits for player: MsMandy
+[Info   :TooManyEmotes-2.2.7] Loading 3 unlocked emotes for player: µ0
+[Info   :TooManyEmotes-2.2.7] Loading 3609 emote credits for player: µ0
+[Info   :TooManyEmotes-2.2.7] Loaded Seed: 665033160
+[Warning:TooManyEmotesScrap-1.0.6] Item list has changed since last session. Updating grabbable emote prop start id from: 83 to: 106
+[Info   : Unity Log] Ship grabbable items list loaded. Count: 33
+[Info   : Unity Log] Setting scrap value for item: Mug(Clone): 56
+[Debug  :Matty's Fixes] Mug new offset is 0,08636665
+[Info   : Unity Log] Setting scrap value for item: StopSign(Clone): 31
+[Debug  :Matty's Fixes] Stop sign new offset is 0,1118711
+[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 62
 [Debug  :Matty's Fixes] Hairdryer new offset is 0,1022418
-[Debug  :Matty's Fixes] Boombox new offset is 0,1907395
+[Info   : Unity Log] Setting scrap value for item: RedSodaCan(Clone): 58
+[Debug  :Matty's Fixes] Red soda new offset is 0,1063296
+[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 0
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 131101
+[Debug  :Matty's Fixes] Cat new offset is 0,001615882
+[Debug  :Matty's Fixes] Stun grenade new offset is 0,07926647
 [Debug  :Matty's Fixes] Pro-flashlight new offset is 0,07735101
-[Info   : Unity Log] Setting scrap value for item: perfect_score.prop(Clone): 17
-[Debug  :Matty's Fixes] Perfect score new offset is 0
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Debug  :Matty's Fixes] Walkie-talkie new offset is 0,09001119
+[Info   : Unity Log] Setting scrap value for item: Hairbrush(Clone): 32
+[Debug  :Matty's Fixes] Brush new offset is 0,04174873
+[Info   : Unity Log] Setting scrap value for item: RedSodaCan(Clone): 23
+[Info   : Unity Log] Setting scrap value for item: jar_of_dirt.prop(Clone): 42
+[Debug  :Matty's Fixes] Jar of dirt new offset is 0
+[Debug  :Matty's Fixes] Boombox new offset is 0,1907395
+[Debug  :Matty's Fixes] Key new offset is 0,008278803
+[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 63
+[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 0
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 131137
 [Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
 [Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
 [Debug  :Matty's Fixes] Spray paint new offset is 0,07112344
-[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
-[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
-[Info   : Unity Log] Setting scrap value for item: LungApparatusTurnedOff(Clone): 80
-[Debug  :Matty's Fixes] Apparatus new offset is 0,3157569
-[Info   : Unity Log] Setting scrap value for item: Mug(Clone): 39
-[Debug  :Matty's Fixes] Mug new offset is 0,08636665
-[Info   : Unity Log] Setting scrap value for item: dumbbell.prop(Clone): 30
-[Info   : Unity Log] Setting scrap value for item: RedSodaCan(Clone): 86
-[Debug  :Matty's Fixes] Red soda new offset is 0,1063296
-[Info   : Unity Log] Setting scrap value for item: PickleJar(Clone): 42
-[Debug  :Matty's Fixes] Jar of pickles new offset is 0,2852256
-[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 52
-[Debug  :Matty's Fixes] Bottles new offset is 0,290181
-[Info   : Unity Log] Setting scrap value for item: Magic7Ball(Clone): 43
-[Debug  :Matty's Fixes] Magic 7 ball new offset is 0,1658573
+[Debug  :Matty's Fixes] Jetpack new offset is 0,1434808
 [Warning: Unity Log] Failed to create agent because there is no valid NavMesh
-[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 79
-[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 65634
-[Info   : Unity Log] Setting scrap value for item: PlasticCup(Clone): 12
-[Debug  :Matty's Fixes] Plastic cup new offset is 0,1139396
-[Info   : Unity Log] Setting scrap value for item: FancyGlass(Clone): 45
-[Debug  :Matty's Fixes] Golden cup new offset is 0,2038094
-[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 51
-[Info   : Unity Log] Setting scrap value for item: Dentures(Clone): 67
-[Debug  :Matty's Fixes] Teeth new offset is 0,07073896
-[Info   : Unity Log] Setting scrap value for item: old_chair.prop(Clone): 20
-[Debug  :Matty's Fixes] Old chair new offset is 0,006000936
-[Debug  :Matty's Fixes] Shovel new offset is 0,0542326
-[Info   : Unity Log] Setting scrap value for item: BigBolt(Clone): 22
-[Debug  :Matty's Fixes] Big bolt new offset is 0,2002165
-[Info   : Unity Log] Setting scrap value for item: TeaKettle(Clone): 39
-[Debug  :Matty's Fixes] Tea kettle new offset is 0,02683485
-[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
-[Debug  :Matty's Fixes] Belt bag new offset is 0,1376425
-[Info   : Unity Log] Setting scrap value for item: LungApparatusTurnedOff(Clone): 80
-[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 68
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 87
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 262188
+[Info   : Unity Log] Setting scrap value for item: OldPhone(Clone): 102
+[Debug  :Matty's Fixes] Old phone new offset is 0,0700344
+[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
+[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 62
 [Debug  :Matty's Fixes] Airhorn new offset is 0,08153064
-[Info   : Unity Log] Setting scrap value for item: paddle.prop(Clone): 32
-[Debug  :Matty's Fixes] Paddle new offset is 0,0002037361
-[Info   : Unity Log] Setting scrap value for item: WhoopieCushion(Clone): 26
-[Debug  :Matty's Fixes] Whoopie cushion new offset is 0,02209558
-[Info   : Unity Log] Setting scrap value for item: Toothpaste(Clone): 39
-[Debug  :Matty's Fixes] Toothpaste new offset is 0,04541781
-[Info   : Unity Log] Setting scrap value for item: Magic7Ball(Clone): 49
-[Info   : Unity Log] Setting scrap value for item: ToyCube(Clone): 38
-[Info   : Unity Log] Setting scrap value for item: RubberDucky(Clone): 18
-[Debug  :Matty's Fixes] Rubber Ducky new offset is 0,142791
-[Info   : Unity Log] Setting scrap value for item: KnifeItem(Clone): 35
-[Debug  :Matty's Fixes] Kitchen knife new offset is 0,02288882
-[Info   : Unity Log] Setting scrap value for item: FancyRing(Clone): 52
-[Debug  :Matty's Fixes] Ring new offset is 0,02734862
-[Info   : Unity Log] Setting scrap value for item: Magic7Ball(Clone): 36
-[Info   : Unity Log] Setting scrap value for item: MagnifyingGlass(Clone): 48
-[Debug  :Matty's Fixes] Magnifying glass new offset is 0,04636003
-[Info   : Unity Log] Setting scrap value for item: ToiletPaperRolls(Clone): 63
-[Debug  :Matty's Fixes] Toilet paper new offset is 0,5023726
-[Info   : Unity Log] Setting scrap value for item: TeaKettle(Clone): 35
-[Info   : Unity Log] Setting scrap value for item: PerfumeBottle(Clone): 84
-[Debug  :Matty's Fixes] Perfume bottle new offset is 0,1098259
-[Info   : Unity Log] Setting scrap value for item: Painting(Clone): 80
-[Debug  :Matty's Fixes] Painting new offset is 0,03740682
-[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 58
-[Info   : Unity Log] Setting scrap value for item: ComedyMask(Clone): 48
-[Debug  :Matty's Fixes] Comedy new offset is 0,1021606
-[Info   : Unity Log] Setting scrap value for item: BinFullOfBottles(Clone): 53
-[Info   : Unity Log] Setting scrap value for item: GarbageLid(Clone): 23
-[Debug  :Matty's Fixes] Garbage lid new offset is 0,03694511
-[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
-[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
-[Info   : Unity Log] Setting scrap value for item: Painting(Clone): 84
-[Info   : Unity Log] Setting scrap value for item: HandBell(Clone): 49
-[Debug  :Matty's Fixes] Bell new offset is 0,2314377
-[Info   : Unity Log] Setting scrap value for item: PickleJar(Clone): 54
-[Info   : Unity Log] Setting scrap value for item: FancyLamp(Clone): 110
-[Debug  :Matty's Fixes] Fancy lamp new offset is 0
-[Debug  :Matty's Fixes] Key new offset is 0,008278803
-[Info   : Unity Log] Setting scrap value for item: CashRegisterItem(Clone): 110
-[Debug  :Matty's Fixes] Cash register new offset is 0,3439704
-[Info   : Unity Log] Setting scrap value for item: Hairdryer(Clone): 62
-[Info   : Unity Log] Setting scrap value for item: TeaKettle(Clone): 52
-[Info   : Unity Log] Setting scrap value for item: FancyLamp(Clone): 76
-[Info   : Unity Log] Loading item save data for item: SprayPaintItem(Clone) (UnityEngine.GameObject): 10
-[Info   :ReservedSprayPaintSlot-1.1.2] Loading spraypaint save data. Remaining capacity: 1
-[Info   : Unity Log] Setting scrap value for item: Clownhorn(Clone): 62
-[Debug  :Matty's Fixes] Clown horn new offset is 0,1324071
-[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 64
+[Info   : Unity Log] Loading item save data for item: BeltBagItem(Clone) (UnityEngine.GameObject): 0
+[Debug  :Matty's Fixes] Belt bag new offset is 0,1376416
+[Warning: Unity Log] Failed to create agent because there is no valid NavMesh
+[Info   : Unity Log] Setting scrap value for item: Cat(Clone): 237
+[Info   : Unity Log] Loading item save data for item: Cat(Clone) (UnityEngine.GameObject): 65634
+[Info   : Unity Log] Setting scrap value for item: red_card.prop(Clone): 28
+[Debug  :Matty's Fixes] Red card new offset is 0,004617121
+[Debug  :Matty's Fixes] Shovel new offset is 0,0542326
+[Info   : Unity Log] Setting scrap value for item: OldPhone(Clone): 108
+[Info   : Unity Log] Setting scrap value for item: Hairbrush(Clone): 34
 [Info   : Unity Log] Loaded vehicle ID: -1
 [Debug  :OpenMonitors] Weather: None
-[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 745395351
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 665033160
 [Info   :Lethal_Company_Enhancer] Config sync'd
 [Warning:TooManySuits] LabelScale exceeds the range of [0,5, 3]; clamping value to 1
 [Debug  :OpenMonitors] StartOfRound.Initialize
@@ -1147,7 +1370,8 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (3)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (2)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player
-[Info   : Unity Log] Group credits: 55512
+[Info   : LethalLib] Skipping Crystal Ray because it was already added
+[Info   : Unity Log] Group credits: 43329
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into quick menu...
 [Info   :Jordo.NeedyCats] Added NeedyCats to all levels.
 [Info   :Lethal_Company_Enhancer] HangarShipDoor Start
@@ -1185,6 +1409,60 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (29)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (30)
 [Info   :ReservedItemSlotCore-2.0.36] Initializing ReservedPlayerData for player: Player (31)
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Info   : Unity Log] dropping item did not get raycast : ShovelItem(Clone)
+[Debug  :OpenMonitors] LifeSupport -> Start()
+[Debug  :OpenMonitors] LifeSupport -> Start() -> UpdateMonitor()
+[Debug  :OpenMonitors] LifeSupport -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Start()
+[Debug  :OpenMonitors] Loot -> Start() -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> UpdateMonitor()
+[Debug  :OpenMonitors] Loot -> Calculate()
+[Debug  :OpenMonitors] Time -> Start()
+[Debug  :OpenMonitors] Time -> Start() end
+[Debug  :OpenMonitors] Credits -> Start()
+[Debug  :OpenMonitors] Credits -> Start() -> UpdateMonitor()
+[Debug  :OpenMonitors] Credits -> UpdateMonitor()
+[Debug  :OpenMonitors] Day -> Start()
+[Debug  :OpenMonitors] Day -> Start() -> IsHost
+[Debug  :OpenMonitors] Day -> UpdateMonitor()
+[Debug  :OpenMonitors] PlayersLifeSupport -> Start()
+[Debug  :OpenMonitors] PlayersLifeSupport -> Start() end
 [Info   : Unity Log] Called teleport function on Player
 [Info   : Unity Log] Taking control of player Player and enabling camera!
 [Info   : Unity Log] Called teleport function on Player (1)
@@ -1228,82 +1506,28 @@ If you are hosting a lobby for random players to join, or you are looking to joi
 [Debug  :OpenMonitors] WaitOnPlayerConnectForMonitorsToBeCreated
 [Info   :OpenBodyCams] Camera has been destroyed, recreating it.
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 44 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
 [Info   : Unity Log] !!!! connectedPlayersAmount: 0
-[Info   : Unity Log] dropping item did not get raycast : ShovelItem(Clone)
-[Debug  :OpenMonitors] LifeSupport -> Start()
-[Debug  :OpenMonitors] LifeSupport -> Start() -> UpdateMonitor()
-[Debug  :OpenMonitors] LifeSupport -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Start()
-[Debug  :OpenMonitors] Loot -> Start() -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> UpdateMonitor()
-[Debug  :OpenMonitors] Loot -> Calculate()
-[Debug  :OpenMonitors] Time -> Start()
-[Debug  :OpenMonitors] Time -> Start() end
-[Debug  :OpenMonitors] Credits -> Start()
-[Debug  :OpenMonitors] Credits -> Start() -> UpdateMonitor()
-[Debug  :OpenMonitors] Credits -> UpdateMonitor()
-[Debug  :OpenMonitors] Day -> Start()
-[Debug  :OpenMonitors] Day -> Start() -> IsHost
-[Debug  :OpenMonitors] Day -> UpdateMonitor()
-[Debug  :OpenMonitors] PlayersLifeSupport -> Start()
-[Debug  :OpenMonitors] PlayersLifeSupport -> Start() end
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 44 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
-[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 745395351
+[Info   :OpenBodyCams] Collected 44 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :TooManyEmotes-2.2.7] Rotating emote selection in store. Seed: 665033160
 [Info   : Unity Log] Has beta?: {hasBeta}
 [Info   : Unity Log] Has beta save data: True
 [Warning:Matty's Fixes] Late Friend update Completed Player 0 (76561198298864236) has name eor
 [Debug  :OpenMonitors] Credits -> UpdateMonitor()
 [Debug  :OpenMonitors] LifeSupport -> UpdateMonitor()
 [Debug  :OpenMonitors] PlayersLifeSupport -> UpdateMonitor()
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Warning: Unity Log] [Dissonance:Recording] (01:10:26.760) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:3,770041)
-[Warning: Unity Log] [Dissonance:Recording] (01:10:26.782) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0,1790724)
 [Info   : Unity Log] radar target index 0
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :OpenBodyCams] Collected 44 third-person and 0 cosmetics for eor without a viewmodel replacement.
 [Info   : Unity Log] [F] Registering spawnables in instance 'delayed'.
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
+[Info   :OpenBodyCams] Collected 44 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   :LethalThings] Attempting to spawn darts!!
+[Debug  :Matty's Fixes] Dart new offset is 0,348131
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
@@ -1314,71 +1538,143 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Info   :ReservedItemSlotCore-2.0.36] Unlocking reserved item slot: spray_paint
 [Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :LethalThings] Syncing configs!
 [Info   : Unity Log] Can't add component 'Camera' to ShipCamera(Clone) because such a component is already added to the game object!
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Cat (Callie): $87</color>
+<color=#FF3333>* 1-Key: $3</color>
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 1-Old phone: $108</color>
+<color=#FF3333>* 1-Stop sign: $31</color>
+<color=#FF3333>* 1-Hairdryer: $63</color>
+<color=#FF3333>* 1-Coffee mug: $56</color>
+<color=#FF3333>* 1-Red soda: $23</color>
+
+Total Scanned: 523
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Cat (Noodle): $237</color>
+<color=#FF3333>* 1-Cat (Callie): $87</color>
+<color=#FF3333>* 1-Key: $3</color>
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 1-Old phone: $108</color>
+<color=#FF3333>* 1-Stop sign: $31</color>
+<color=#78FFAE>1-Hairdryer: $62</color>
+
+Total Scanned: 618
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 1-Old phone: $108</color>
+<color=#FF3333>* 1-Stop sign: $31</color>
+<color=#78FFAE>1-Hairdryer: $62</color>
+<color=#FF3333>* 1-Coffee mug: $56</color>
+
+Total Scanned: 353
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Cat (Callie): $87</color>
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 1-Old phone: $108</color>
+<color=#FF3333>* 1-Stop sign: $31</color>
+<color=#78FFAE>1-Hairdryer: $62</color>
+<color=#FF3333>* 1-Coffee mug: $56</color>
+
+Total Scanned: 440
+Ship Total: 1034
+[Info   : Unity Log] ''''
 [Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
-[Info   :meow.ModelReplacementAPI] Suit Change detected  => MeowSkulls, Replacing ModelReplacement.MEOWSKULLS.
-[Info   :meow.ModelReplacementAPI] Awake eor Player (ModelReplacement.MEOWSKULLS)
-[Info   :meow.ModelReplacementAPI] AwakeEnd eor
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: cheer
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 288 third-person and 250 cosmetics for eor with a viewmodel replacement.
-[Info   :   Console] PLAYER EMOTE START eor ID 35
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Info   :meow.ModelReplacementAPI] Model Replacement Change detected ModelReplacement.MEOWSKULLS => ThiccCompany.Replacements.RaccoonPurpleReplacement, changing model.
-[Info   :meow.ModelReplacementAPI] Suit Change detected MeowSkulls => RaccoonPurple, Replacing ThiccCompany.Replacements.RaccoonPurpleReplacement.
-[Info   :meow.ModelReplacementAPI] Awake eor Player (ThiccCompany.Replacements.RaccoonPurpleReplacement)
-[Info   :meow.ModelReplacementAPI] AwakeEnd eor
-[Info   :meow.ModelReplacementAPI] Destroy body component for eor
-[Info   :   Console] PLAYER EMOTE START eor ID 35
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: cheer
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 115 third-person and 77 cosmetics for eor with a viewmodel replacement.
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Info   :meow.ModelReplacementAPI] Destroy body component for eor
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: afk
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: afk
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: cheer
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 37 third-person and 0 cosmetics for eor without a viewmodel replacement.
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
-[Info   :meow.ModelReplacementAPI] Suit Change detected  => Fishstick, Replacing ModelReplacement.MRFISHSTICKNEW2.
-[Info   :meow.ModelReplacementAPI] Awake eor Player (ModelReplacement.MRFISHSTICKNEW2)
-[Info   :meow.ModelReplacementAPI] AwakeEnd eor
-[Info   :   Console] PLAYER EMOTE START eor ID 35
-[Info   :TooManyEmotes-2.2.7] Attempting to perform emote on local player.
-[Info   :TooManyEmotes-2.2.7] [eor] Performing emote: afk
-[Info   :TooManyEmotes-2.2.7] Saving TooManyEmotes emote menu preferences.
-[Info   :   Console] PLAYER EMOTE END eor
-[Info   :OpenBodyCams] Getting MoreCompany cosmetic models for eor
-[Info   :OpenBodyCams] Collected 106 third-person and 68 cosmetics for eor with a viewmodel replacement.
-[Info   :TooManyEmotes-2.2.7] [eor] Stopping emote.
+[Info   :OpenBodyCams] Collected 44 third-person and 0 cosmetics for eor without a viewmodel replacement.
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Cat (Callie): $87</color>
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 1-Old phone: $108</color>
+<color=#FF3333>* 1-Stop sign: $31</color>
+<color=#78FFAE>1-Hairdryer: $62</color>
+<color=#FF3333>* 1-Coffee mug: $56</color>
+
+Total Scanned: 443
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   : Unity Log] Saving placed position as: (-2.36, 2.88, -6.80)
+[Info   : Unity Log] Saving placed position as: (-0.70, 2.84, -6.75)
+[Info   : Unity Log] Saving placed position as: (-0.99, 0.56, -7.61)
+[Info   : Unity Log] Saving placed position as: (-0.20, 1.04, -13.93)
+[Info   : Unity Log] Saving placed position as: (3.96, 1.04, -14.47)
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+
+Total Scanned: 0
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+
+Total Scanned: 0
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Cat (Callie): $87</color>
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 1-Old phone: $108</color>
+<color=#FF3333>* 1-Coffee mug: $56</color>
+<color=#FF3333>* 1-Hairdryer: $62</color>
+
+Total Scanned: 347
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+<color=#FF3333>* 1-Red card: $28</color>
+<color=#FF3333>* 2-Old phone: $210</color>
+<color=#FF3333>* 1-Stop sign: $31</color>
+<color=#FF3333>* 1-Coffee mug: $56</color>
+<color=#78FFAE>1-Hairdryer: $62</color>
+<color=#FF3333>* 1-Red soda: $23</color>
+
+Total Scanned: 478
+Ship Total: 1034
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   : Unity Log] Set interminalmenu to true: True
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
 [Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
 [Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 0 OldIndex: 4 ReservedStartIndex: 4
 [Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
 [Info   :ReservedItemSlotCore-2.0.36] Unfocusing reserved hotbar slots. NewIndex: 0 OldIndex: 4 ReservedStartIndex: 4
-[Info   :ReservedItemSlotCore-2.0.36] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
-[Info   : Unity Log] Leaving current lobby
-[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
-[Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
-[Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
-[Error  : Unity Log] Error while disconnecting: System.NullReferenceException: Object reference not set to an instance of an object
-  at TooManyEmotes.SaveManager.SaveLocalPlayerValues () [0x00001] in <f97340167e9046f7a8c419ecbc006f84>:0 
-  at (wrapper dynamic-method) GameNetworkManager.DMD<GameNetworkManager::SaveLocalPlayerValues>(GameNetworkManager)
-  at GameNetworkManager.SaveGame () [0x00000] in <d2996142fa1d46369fdcffced906545b>:0 
-  at GameNetworkManager.Disconnect () [0x00033] in <d2996142fa1d46369fdcffced906545b>:0 
-  at GameNetworkManager.OnApplicationQuit () [0x00015] in <d2996142fa1
